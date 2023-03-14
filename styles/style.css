@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+body {
+    margin: 0;
+}
+
 .header__colors {
     margin-top: 30px;
     margin-left: 30px;
 }
 
 .colors {
-    max-width: 282px;
-    width: 100%;
+    /* max-width: 282px;
+    width: 100%; */
     margin-top: 67px;
     margin-left: 150px;
     display: flex;
@@ -58,21 +62,101 @@
     display: flex;
     flex-direction: column;
     row-gap: 34px;
+    margin-left: 40px;
 }
 
 .colors__name {
-    margin-top: 27px;
+    max-height: 56px;
+    height: 100%;
+    max-width: 171px;
+    width: 100%;
 }
 
 .colors__title {
-    margin:0;
+    margin: 0;
+    font-family: "Montserrat", "Arial", "Helvetica", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 27.79px;
 }
 
 .colors__subtitle {
-    margin:0;
+    margin: 0;
+    font-family: "Montserrat", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 27.79px;
 }
 
-.colors__name_dark100 {
-    max-width: 171px;
+.headlines {
+    display: flex;
+    margin-left: 423px;
+    flex-direction: column;
+    row-gap: 51px;
+}
+
+.headliens__names {
+    display: flex;
+    flex-direction: row;
+}
+
+.headlines__name {
+    font-family: "Montserrat", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    color: #1F204140;
+    margin: 0;
+}
+
+.headlines__name_H1 {
+    font-size: 24px;
+    line-height: 29.26px;
+    padding-left: 8px;
+}
+
+.headlines__name_H2 {
+    font-size: 19px;
+    line-height: 23.16px;
+    padding-left: 10px;
+}
+
+.headlines__name_H3 {
+    font-size: 12px;
+    line-height: 14.63px;
+    padding-left: 20px;
+}
+
+.headlines__name_body {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.headlines__description {
+    max-width: 369px;
     width: 100%;
+    font-family: "Montserrat", "Arial", "Helvetica", sans-serif;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 30px;
+}
+
+.headlines__description_H1 {
+    font-size: 24px;
+    line-height: 29.26px;
+}
+
+.headlines__description_H2 {
+    font-size: 19px;
+    line-height: 23.16px;
+}
+
+.headlines__description_H3 {
+    font-size: 12px;
+    line-height: 14.63px;
+}
+
+.headlines__description_body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #1F2041BF;
 }
