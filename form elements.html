@@ -15,226 +15,275 @@
             <img src="images/Colors/colors__header.svg" class="header__colors" alt="image header">
         </header>
         <main class="content">
-            <form class="form" novalidate>
+            <section class="left-page">
+                <form class="form" novalidate>
 
-                <label class="form-field">
-                    <div class="form-field__header">
-                        <h2 class="form-field__title title">TEXT FIELD</h2>
-                        <h3 class="form-field__state state">DEFAULT</h3>
-                    </div>
-                    <input class="form-field__input form-field__input_email" type="text" placeholder="Email"
-                        minlength="2" required>
-                </label>
-
-                <label class="form-field">
-                    <div class="form-field__header">
-                        <h2 class="form-field__title title">TEXT FIELD</h2>
-                        <h3 class="form-field__state state">HOVER/FOCUS</h3>
-                    </div>
-
-                    <input class="form-field__input form-field__input_focus" type="url"
-                        placeholder="This is pretty awesome" required>
-
-                </label>
-                <label class="form-field">
-                    <div class="form-field__header">
-                        <h2 class="form-field__title title">DROPDOWN</h2>
-                    </div>
-                    <div class="form-field__text">
-                        <input class="form-field__input form-field__input_guest" type="text"
-                            placeholder="Сколько гостей" minlength="2" required>
-                        <button class="form-field__button check-button">
-                            <img src="images/form_elements/check mark.svg" class="form-field__image" alt="check image">
-                        </button>
-                    </div>
-                </label>
-                <label class="form-field">
-                    <div class="form-field__header">
-                        <h2 class="form-field__title title">MASKED TEXT FIELD</h2>
-                    </div>
-                    <input class="form-field__input form-field__input_masked" type="text" placeholder="ДД.ММ.ГГГГ"
-                        minlength="2" required>
-                </label>
-                <label class="form__field form-field_drop">
-                    <div class="form-field__dropdown-dates">
-                        <div class="form-field__dropdown-date">
-                            <div class="form-field__header">
-                                <h2 class="form-field__title title">DATE DROPDOWN</h2>
-                            </div>
-                            <div class="form-field__text form-field__text_dropdown">
-                                <input class="form-field__input form-field__input_dropdown" type="text"
-                                    placeholder="ДД.ММ.ГГГГ" minlength="2" required>
-                                <button class="form-field__button check-button">
-                                    <img src="images/form_elements/check mark.svg" class="form-field__image"
-                                        alt="check image">
-                                </button>
-                            </div>
+                    <label class="form-field">
+                        <div class="form-field__header">
+                            <h2 class="form-field__title title">TEXT FIELD</h2>
+                            <h3 class="form-field__state state">DEFAULT</h3>
                         </div>
-                        <div class="form-field__dropdown-date">
-                            <div class="form-field__header">
-                                <h2 class="form-field__title title">DATE DROPDOWN</h2>
-                            </div>
-                            <div class="form-field__text form-field__text_dropdown">
-                                <input class="form-field__input form-field__input_dropdown" type="text"
-                                    placeholder="19.08.2019" minlength="2" required>
-                                <button class="form-field__button check-button">
-                                    <img src="images/form_elements/check mark.svg" class="form-field__image"
-                                        alt="check image">
-                                </button>
-                            </div>
+                        <input class="form-field__input form-field__input_email" type="text" placeholder="Email"
+                            minlength="2" required>
+                    </label>
+
+                    <label class="form-field">
+                        <div class="form-field__header">
+                            <h2 class="form-field__title title">TEXT FIELD</h2>
+                            <h3 class="form-field__state state">HOVER/FOCUS</h3>
                         </div>
 
-                    </div>
+                        <input class="form-field__input form-field__input_focus" type="url"
+                            placeholder="This is pretty awesome" required>
 
-                </label>
-
-                <label class="form-field form-field_drop">
-                    <div class="form-field__header">
-                        <h2 class="form-field__title title">FILTER DATE DROPDOWN</h2>
-                    </div>
-                    <div class="form-field__text form-field__text_dropdown-filter">
-                        <input class="form-field__input form-field__input_dropdown-filter" type="text"
-                            placeholder="19 авг - 23 авг" minlength="2" required>
-                        <button class="form-field__button check-button">
-                            <img src="images/form_elements/check mark.svg" class="form-field__image" alt="check image">
-                        </button>
-                    </div>
-                </label>
-
-                <label class="form-field form-field_drop">
-                    <div class="form-field__header">
-                        <h2 class="form-field__title title">SUBSCRIPTION TEXT FIELD</h2>
-                    </div>
-                    <div class="form-field__text form-field__text_dropdown-filter">
-                        <input class="form-field__input form-field__input_dropdown-filter" type="text"
-                            placeholder="Email" minlength="2" required>
-                        <button class="form-field__button check-button">
-                            <img src="images/form_elements/arrow_forward.svg" class="form-field__image"
-                                alt="check image">
-                        </button>
-                    </div>
-                </label>
-
-                <label class="form-field form-field_drop-list">
-                    <div class="form-field__header form-field__header_drop-list">
-                        <h2 class="form-field__title title">DROPDOWN</h2>
-                        <h3 class="form-field__state state">DEFAULT</h3>
-                    </div>
-                    <div class="form-field__text form-field__text_dropdown-filter">
-                        <input class="form-field__input form-field__input_dropdown-filter" type="text"
-                            placeholder="2 спальни, 2 кровати..." minlength="2" required>
-                        <button class="form-field__button check-button">
-                            <img src="images/form_elements/check mark.svg" class="form-field__image" alt="check image">
-                        </button>
-                    </div>
-                </label>
-                <label class="form-field">
-                    <div class="form-field__header form-field__header_drop-list">
-                        <h2 class="form-field__title title">DROPDOWN</h2>
-                        <h3 class="form-field__state state">EXPANDED</h3>
-                    </div>
-                    <div class="form-field__text form-field__text_dropdown-open">
-                        <input class="form-field__input_dropdown-filter form-field__input_dropdown-open" type="text"
-                            placeholder="2 спальни, 2 кровати..." minlength="2" required>
-                        <button class="form-field__button check-button">
-                            <img src="images/form_elements/check mark.svg" class="form-field__image" alt="check image">
-                        </button>
-                    </div>
-                    <div class="dropdown-lists">
-                        <div class="dropdown-list">
-                            <h3 class="dropdown-list__title title ">СПАЛЬНИ</h3>
-                            <div class="dropdown-buttons">
-                                <button class="dropdown-button">
-                                    <img src="images/form_elements/-.svg" class="dropdown-button__image"
-                                        alt="minus image">
-                                </button>
-                                <p class="dropdown__text title">2</p>
-                                <button class="dropdown-button">
-                                    <img src="images/form_elements/+.svg" class="dropdown-button__image"
-                                        alt="minus image">
-                                </button>
+                    </label>
+                    <label class="form-field">
+                        <div class="form-field__header">
+                            <h2 class="form-field__title title">DROPDOWN</h2>
+                        </div>
+                        <div class="form-field__text">
+                            <input class="form-field__input form-field__input_guest" type="text"
+                                placeholder="Сколько гостей" minlength="2" required>
+                            <button class="form-field__button check-button">
+                                <img src="images/form_elements/check mark.svg" class="form-field__image"
+                                    alt="check image">
+                            </button>
+                        </div>
+                    </label>
+                    <label class="form-field">
+                        <div class="form-field__header">
+                            <h2 class="form-field__title title">MASKED TEXT FIELD</h2>
+                        </div>
+                        <input class="form-field__input form-field__input_masked" type="text" placeholder="ДД.ММ.ГГГГ"
+                            minlength="2" required>
+                    </label>
+                    <label class="form__field form-field_drop">
+                        <div class="form-field__dropdown-dates">
+                            <div class="form-field__dropdown-date">
+                                <div class="form-field__header">
+                                    <h2 class="form-field__title title">DATE DROPDOWN</h2>
+                                </div>
+                                <div class="form-field__text form-field__text_dropdown">
+                                    <input class="form-field__input form-field__input_dropdown" type="text"
+                                        placeholder="ДД.ММ.ГГГГ" minlength="2" required>
+                                    <button class="form-field__button check-button">
+                                        <img src="images/form_elements/check mark.svg" class="form-field__image"
+                                            alt="check image">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="form-field__dropdown-date">
+                                <div class="form-field__header">
+                                    <h2 class="form-field__title title">DATE DROPDOWN</h2>
+                                </div>
+                                <div class="form-field__text form-field__text_dropdown">
+                                    <input class="form-field__input form-field__input_dropdown" type="text"
+                                        placeholder="19.08.2019" minlength="2" required>
+                                    <button class="form-field__button check-button">
+                                        <img src="images/form_elements/check mark.svg" class="form-field__image"
+                                            alt="check image">
+                                    </button>
+                                </div>
                             </div>
 
-
                         </div>
-                        <div class="dropdown-list">
-                            <h3 class="dropdown-list__title title ">КРОВАТИ</h3>
-                            <div class="dropdown-buttons">
-                                <button class="dropdown-button">
-                                    <img src="images/form_elements/-.svg" class="dropdown-button__image"
-                                        alt="minus image">
-                                </button>
-                                <p class="dropdown__text title">2</p>
-                                <button class="dropdown-button">
-                                    <img src="images/form_elements/+.svg" class="dropdown-button__image"
-                                        alt="minus image">
-                                </button>
+
+                    </label>
+
+                    <label class="form-field form-field_drop">
+                        <div class="form-field__header">
+                            <h2 class="form-field__title title">FILTER DATE DROPDOWN</h2>
+                        </div>
+                        <div class="form-field__text form-field__text_dropdown-filter">
+                            <input class="form-field__input form-field__input_dropdown-filter" type="text"
+                                placeholder="19 авг - 23 авг" minlength="2" required>
+                            <button class="form-field__button check-button">
+                                <img src="images/form_elements/check mark.svg" class="form-field__image"
+                                    alt="check image">
+                            </button>
+                        </div>
+                    </label>
+
+                    <label class="form-field form-field_drop">
+                        <div class="form-field__header">
+                            <h2 class="form-field__title title">SUBSCRIPTION TEXT FIELD</h2>
+                        </div>
+                        <div class="form-field__text form-field__text_dropdown-filter">
+                            <input class="form-field__input form-field__input_dropdown-filter" type="text"
+                                placeholder="Email" minlength="2" required>
+                            <button class="form-field__button check-button">
+                                <img src="images/form_elements/arrow_forward.svg" class="form-field__image"
+                                    alt="check image">
+                            </button>
+                        </div>
+                    </label>
+
+                    <label class="form-field form-field_drop-list">
+                        <div class="form-field__header form-field__header_drop-list">
+                            <h2 class="form-field__title title">DROPDOWN</h2>
+                            <h3 class="form-field__state state">DEFAULT</h3>
+                        </div>
+                        <div class="form-field__text form-field__text_dropdown-filter">
+                            <input class="form-field__input form-field__input_dropdown-filter" type="text"
+                                placeholder="2 спальни, 2 кровати..." minlength="2" required>
+                            <button class="form-field__button check-button">
+                                <img src="images/form_elements/check mark.svg" class="form-field__image"
+                                    alt="check image">
+                            </button>
+                        </div>
+                    </label>
+                    <label class="form-field">
+                        <div class="form-field__header form-field__header_drop-list">
+                            <h2 class="form-field__title title">DROPDOWN</h2>
+                            <h3 class="form-field__state state">EXPANDED</h3>
+                        </div>
+                        <div class="form-field__text form-field__text_dropdown-open">
+                            <input class="form-field__input_dropdown-filter form-field__input_dropdown-open" type="text"
+                                placeholder="2 спальни, 2 кровати..." minlength="2" required>
+                            <button class="form-field__button check-button">
+                                <img src="images/form_elements/check mark.svg" class="form-field__image"
+                                    alt="check image">
+                            </button>
+                        </div>
+                        <div class="dropdown-lists">
+                            <div class="dropdown-list">
+                                <h3 class="dropdown-list__title title ">СПАЛЬНИ</h3>
+                                <div class="dropdown-buttons">
+                                    <button class="dropdown-button">
+                                        <img src="images/form_elements/-.svg" class="dropdown-button__image"
+                                            alt="minus image">
+                                    </button>
+                                    <p class="dropdown__text title">2</p>
+                                    <button class="dropdown-button">
+                                        <img src="images/form_elements/+.svg" class="dropdown-button__image"
+                                            alt="minus image">
+                                    </button>
+                                </div>
+
+
+                            </div>
+                            <div class="dropdown-list">
+                                <h3 class="dropdown-list__title title ">КРОВАТИ</h3>
+                                <div class="dropdown-buttons">
+                                    <button class="dropdown-button">
+                                        <img src="images/form_elements/-.svg" class="dropdown-button__image"
+                                            alt="minus image">
+                                    </button>
+                                    <p class="dropdown__text title">2</p>
+                                    <button class="dropdown-button">
+                                        <img src="images/form_elements/+.svg" class="dropdown-button__image"
+                                            alt="minus image">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="dropdown-list">
+                                <h3 class="dropdown-list__title title ">ВАННЫЕ КОМНАТЫ</h3>
+                                <div class="dropdown-buttons">
+                                    <button class="dropdown-button dropdown-button_null">
+                                        <img src="images/form_elements/-.svg" class="dropdown-button__image"
+                                            alt="minus image">
+                                    </button>
+                                    <p class="dropdown__text title">0</p>
+                                    <button class="dropdown-button">
+                                        <img src="images/form_elements/+.svg" class="dropdown-button__image"
+                                            alt="minus image">
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <div class="dropdown-list">
-                            <h3 class="dropdown-list__title title ">ВАННЫЕ КОМНАТЫ</h3>
-                            <div class="dropdown-buttons">
-                                <button class="dropdown-button dropdown-button_null">
-                                    <img src="images/form_elements/-.svg" class="dropdown-button__image"
-                                        alt="minus image">
-                                </button>
-                                <p class="dropdown__text title">0</p>
-                                <button class="dropdown-button">
-                                    <img src="images/form_elements/+.svg" class="dropdown-button__image"
-                                        alt="minus image">
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </label>
-            </form>
+                    </label>
+                </form>
 
-            <div class="checkbox-name">
-                <h2 class="checkbox-name__title title">EXPANDABLE CHECKBOX LIST</h2>
-                <button class="checkbox-name__button check-button">
-                    <img src="images/form_elements/check mark.svg" class="" alt="check image">
-                </button>
-            </div>
-
-            <ul class="checkbox-list">
                 <div class="checkbox-name">
                     <h2 class="checkbox-name__title title">EXPANDABLE CHECKBOX LIST</h2>
                     <button class="checkbox-name__button check-button">
-                        <img src="images/form_elements/expand_more.svg" class="" alt="check image">
+                        <img src="images/form_elements/check mark.svg" class="" alt="check image">
                     </button>
                 </div>
-                <li class="checkbox-list__element">
-                    <input type="checkbox" class="checkbox-input">
-                    <span class="checkbox-list__state state">Завтрак</span>
-                </li>
-                <li class="checkbox-list__element">
-                    <input type="checkbox" class="checkbox-input">
-                    <span class="checkbox-list__state state">Письменный стол</span>
-                </li>
-                <li class="checkbox-list__element">
-                    <input type="checkbox" class="checkbox-input">
-                    <span class="checkbox-list__state state">Стул для кормления</span>
-                </li>
-                <li class="checkbox-list__element">
-                    <input type="checkbox" class="checkbox-input">
-                    <span class="checkbox-list__state state">Кроватка</span>
-                </li>
-                <li class="checkbox-list__element">
-                    <input type="checkbox" class="checkbox-input">
-                    <span class="checkbox-list__state state">Телевизор</span>
-                </li>
-                <li class="checkbox-list__element">
-                    <input type="checkbox" class="checkbox-input">
-                    <h3 class="checkbox-list__state state">Шампунь</h3>
-                </li>
-            </ul>
-            <div class="advantages">
-                <img src="images/form_elements/insert_emoticon.svg" class="advantages-image" alt="emotion">
-                <div class="advantages-info">
-                    <h2 class="advantages__title title">Комфорт</h2>
-                    <h3 class="advantages__state state">Шумопоглощающие стены</h3>
+
+                <ul class="checkbox-list">
+                    <div class="checkbox-name">
+                        <h2 class="checkbox-name__title title">EXPANDABLE CHECKBOX LIST</h2>
+                        <button class="checkbox-name__button check-button">
+                            <img src="images/form_elements/expand_more.svg" class="" alt="check image">
+                        </button>
+                    </div>
+                    <li class="checkbox-list__element">
+                        <input type="checkbox" class="checkbox-input">
+                        <span class="checkbox-list__state state">Завтрак</span>
+                    </li>
+                    <li class="checkbox-list__element">
+                        <input type="checkbox" class="checkbox-input">
+                        <span class="checkbox-list__state state">Письменный стол</span>
+                    </li>
+                    <li class="checkbox-list__element">
+                        <input type="checkbox" class="checkbox-input">
+                        <span class="checkbox-list__state state">Стул для кормления</span>
+                    </li>
+                    <li class="checkbox-list__element">
+                        <input type="checkbox" class="checkbox-input">
+                        <span class="checkbox-list__state state">Кроватка</span>
+                    </li>
+                    <li class="checkbox-list__element">
+                        <input type="checkbox" class="checkbox-input">
+                        <span class="checkbox-list__state state">Телевизор</span>
+                    </li>
+                    <li class="checkbox-list__element">
+                        <input type="checkbox" class="checkbox-input">
+                        <h3 class="checkbox-list__state state">Шампунь</h3>
+                    </li>
+                </ul>
+                <div class="advantages">
+                    <div class="advantage">
+                        <img src="images/form_elements/insert_emoticon.svg" class="advantage-image" alt="emotion">
+                        <div class="advantage-info">
+                            <h2 class="advantage__title title">Комфорт</h2>
+                            <h3 class="advantage__state state">Шумопоглощающие стены</h3>
+                        </div>
+                    </div>
+                    <div class="advantage">
+                        <img src="images/form_elements/location_city.svg" class="advantage-image" alt="emotion">
+                        <div class="advantage-info">
+                            <h2 class="advantage__title title">Удобство</h2>
+                            <h3 class="advantage__state state">Окно в каждой из спален</h3>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </section>
+            <section class="center-page">
+                <div class="checkbox-buttons">
+                    <ul class="checkbox-list">
+                        <div class="checkbox-name">
+                            <h2 class="checkbox-name__title title">CHECKBOX BUTTONS</h2>
+                        </div>
+                        <li class="checkbox-list__element">
+                            <input type="checkbox" class="checkbox-input">
+                            <span class="checkbox-list__state state">Можно курить</span>
+                        </li>
+                        <li class="checkbox-list__element">
+                            <input type="checkbox" class="checkbox-input">
+                            <span class="checkbox-list__state state">Можно с питомцами</span>
+                        </li>
+                        <li class="checkbox-list__element">
+                            <input type="checkbox" class="checkbox-input">
+                            <span class="checkbox-list__state state">Можно пригласить гостей (до 10 человек)</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="radio-buttons">
+                    <h2 class="radio-buttons__title title">RADIO BUTTONS</h2>
+                    <div class="radio-checkbuttons">
+                        <div class="radio-checkbutton">
+                            <input type="radio" class="radio-button">
+                            <span class="radio-button__state state">Мужчина</span>
+                        </div>
+                        <div class="radio-checkbutton">
+                            <input type="radio" class="radio-button">
+                            <span class="radio-button__state state">Женщина</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     </div>
 </body>
