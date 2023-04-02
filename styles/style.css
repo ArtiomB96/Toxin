@@ -478,7 +478,7 @@ body {
 }
 
 .radio-buttons {
-margin-top: 41px;
+    margin-top: 41px;
 }
 
 .radio-buttons__title {
@@ -510,4 +510,88 @@ margin-top: 41px;
     margin-left: 10px;
     font-size: 14px;
     line-height: 24px;
+}
+
+.toggle {
+    margin-top: 41px;
+}
+
+.toggle__title {
+    font-size: 12px;
+    line-height: 14.63px;
+}
+
+.toggle-buttons {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.toggle-button {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    margin: 0;
+    vertical-align: top;
+    background: #ffffff;
+    border: 1px solid #1F204140;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.toggle-input {
+    display: flex;
+    align-items: center;
+}
+
+.toggle-button::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 4px;
+    top: 3px;
+    width: 12px;
+    height: 12px;
+    background-color: #1F204140;
+    border-radius: 10px;
+    transform: translateX(0);
+}
+
+.toggle-button_like::after {
+    /* display: none; */
+}
+
+.toggle-button:checked::after {
+    transform: translateX(calc(100% + 6px));
+    background-color: #BC9CFF;
+}
+
+.toggle-button:checked {
+    border: 1px solid #BC9CFF;
+}
+
+.toggle__state {
+    color: #1F2041BF;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 10px;
+}
+
+.like__title {
+    font-size: 12px;
+    line-height: 14.63px;
+}
+
+.toggle-input__text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-radius: 4px;
 }
