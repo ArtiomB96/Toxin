@@ -245,7 +245,7 @@ body {
     /* margin-right: 15px; */
 }
 
-.form-field__button {}
+
 
 .check-button {
     background-color: rgba(28, 28, 28, 0);
@@ -375,6 +375,10 @@ body {
     margin-top: 7px;
 }
 
+.checkbox-buttons_rich {
+    margin-top: 98px;
+}
+
 .dropdown-button__image {
     width: 8px;
     height: 9px;
@@ -392,12 +396,17 @@ body {
     opacity: 0.5;
 }
 
+.checkbox-buttons {
+    margin-top: 49px;
+}
+
 .checkbox-name {
     max-width: 266px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 
 .checkbox-name__title {
@@ -415,7 +424,7 @@ body {
     row-gap: 12px;
     padding: 0;
     margin: 0;
-    margin-top: 49px;
+    /* margin-top: 49px; */
 }
 
 .checkbox-list__element {
@@ -433,11 +442,30 @@ body {
     margin: 0;
 }
 
+.checkbox-list__text {
+    max-width: 236px;
+}
+
+.checkbox-list__title {
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 10px;
+    color: #1F2041BF;
+    margin-bottom: 5px;
+}
+
 .checkbox-list__state {
     max-width: 192px;
     width: 100%;
     margin: 0;
     margin-left: 10px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.checkbox-list__state_rich {
+    font-size: 12px;
+    line-height: 14px;
 }
 
 .advantages {
@@ -563,9 +591,6 @@ body {
     transform: translateX(0);
 }
 
-.toggle-button_like::after {
-    /* display: none; */
-}
 
 .toggle-button:checked::after {
     transform: translateX(calc(100% + 6px));
@@ -586,12 +611,165 @@ body {
 .like__title {
     font-size: 12px;
     line-height: 14.63px;
+    margin-top: 41px;
 }
 
-.toggle-input__text {
+.like-field__text {
+    width: 40px;
+    height: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    border: 1px solid rgba(31, 32, 65, 0.25);
-    border-radius: 4px;
+    border: 1px solid #1F204140;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.like-field__text_active {
+    border: 1px solid #BC9CFF
+}
+
+.like-button__input {
+    border-color: #FFFFFF;
+}
+
+.like-buttons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-top: 16px;
+}
+
+.like-button {
+    background-color: rgba(28, 28, 28, 0);
+    border: #FFFFFF;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+}
+
+.like-button__image {
+    /* width: 20px;
+    height: 20px; */
+}
+
+.like-button__state {
+    font-size: 10px;
+    line-height: 12.19px;
+    margin-top: 3px;
+    margin-left: 2px;
+}
+
+.like-button__state_active {
+    color: #BC9CFF;
+}
+
+.rate {
+    margin-top: 40px;
+}
+
+.rate__title {
+    font-size: 12px;
+    line-height: 14.63px;
+}
+
+.rate-buttons {
+    margin-top: 16px;
+    margin-bottom: 196px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.rate-button__star {
+    background-color: rgba(28, 28, 28, 0);
+    border: #FFFFFF;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+}
+
+.button-apply {
+    background-color: rgba(28, 28, 28, 0);
+    border: #FFFFFF;
+}
+
+.button-apply__title {
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #BC9CFF;
+}
+
+.dropdown-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.right-page {
+    max-width: 266px;
+    width: 100%;
+    margin-top: 65px;
+}
+.range-slider {
+    max-width: 266px;
+    width: 100%;
+}
+.range-slider__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+
+.range-slider__title {
+    font-size: 12px;
+    line-height: 14.63px;
+}
+
+.range-slider__state {
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #1F204180;
+    
+}
+.range-controls {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.range-controls__scale {
+    height: 6px;
+    border: 1px solid #1F204140;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.range-controls__bar {
+    position: absolute;
+    top: -1px;
+    width: 33%;
+    height: 8px;
+    left: 34%;
+    border: 1px solid #FFFFFF;
+    background: linear-gradient(#6FCF97, #66D2EA);
+}
+
+.range-toggle {
+    position: absolute;
+    top: -4px;
+    width: 12px;
+    height: 12px;
+    background: linear-gradient(#6FCF97, #66D2EA);;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    /* box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2); */
+    cursor: pointer;
+}
+
+.range-toggle-min {
+    left: 33%;
+}
+
+.range-toggle-max {
+    left: 66%;
 }
