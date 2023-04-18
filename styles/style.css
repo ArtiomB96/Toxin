@@ -691,6 +691,8 @@ body {
 .button-apply {
     background-color: rgba(28, 28, 28, 0);
     border: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .button-apply__title {
@@ -701,19 +703,26 @@ body {
 
 .dropdown-footer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     margin-top: 20px;
 }
 
+.dropdown-footer_apply {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .right-page {
-    max-width: 266px;
+    max-width: 320px;
     width: 100%;
     margin-top: 65px;
 }
+
 .range-slider {
     max-width: 266px;
     width: 100%;
 }
+
 .range-slider__header {
     display: flex;
     flex-direction: row;
@@ -730,8 +739,9 @@ body {
     font-size: 12px;
     line-height: 14.63px;
     color: #1F204180;
-    
+
 }
+
 .range-controls {
     position: relative;
     margin-bottom: 32px;
@@ -759,7 +769,7 @@ body {
     top: -4px;
     width: 12px;
     height: 12px;
-    background: linear-gradient(#6FCF97, #66D2EA);;
+    background: linear-gradient(#6FCF97, #66D2EA);
     border: 2px solid #ffffff;
     border-radius: 10px;
     /* box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2); */
@@ -772,4 +782,141 @@ body {
 
 .range-toggle-max {
     left: 66%;
+}
+
+.buttons__title {
+    font-size: 12px;
+    line-height: 14.63px;
+    margin-bottom: 16px;
+}
+
+.click-buttons {
+    display: flex;
+    gap: 19px;
+}
+
+.click-buttons_default {
+    margin-top: 30px;
+}
+
+.click-button {
+    width: 99px;
+    height: 44px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border: none;
+    border-radius: 22px;
+}
+
+.click-button_transition {
+    max-width: 320px;
+    width: 100%;
+    margin-top: 31px;
+}
+
+.click-button_pagination-active {
+    width:40px;
+    height: 40px;
+}
+
+.click-button_pagination-arrow {
+    background: linear-gradient(#6FCF97, #66D2EA);
+}
+
+
+
+.click-button_default {
+    border: 2px solid transparent;
+    /*Обводка нужной толщины, но прозрачная*/
+    background: linear-gradient(180deg, #BC9CFF 100%, #8BA4F9 100%);
+    /*Нужный градиент в качестве фона*/
+    box-shadow: inset 0px 0px 0px 100vw #fff;
+    /* Тень направленная внутрь контейнера, перекрывает ненужный фон и оставляет только рамку */
+    border-radius: 22px;
+    /*Скругляет углы*/
+    display: inline-block;
+}
+
+.click-button_hover {
+    opacity: 0.5;
+}
+
+.click-button__text {
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #FFFFFF;
+}
+
+.click-button__text_purple {
+    color: #BC9CFF;
+}
+
+.click-button__container {
+   max-width: 300px;
+   width: 100%;
+   align-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.click-button__title {
+    margin: 0 auto;
+}
+
+
+.border-image {
+    border-radius: 22px;
+    width: 99px;
+    height: 44px;
+    overflow: hidden;
+}
+
+.links {
+    margin-top: 31px;
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #BC9CFF;
+    text-decoration: none;
+}
+
+.link_grey {
+    color: #1F204180;
+}
+
+.pagination {
+    margin-top: 40px;
+    margin-bottom: 242px;
+}
+.pagination__title {
+    font-size: 12px;
+    line-height: 14.63px;
+}
+
+.pagination-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 17px;
+}
+.pagination-button {
+    width: 40px;
+    background: #FFFFFF;
+    border: 0px;
+}
+.pagination-text {
+    color: #1F204180;
+}
+
+.pagination-state {
+    width: 229px;
+    height:24px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1F204180;
+    margin-top: 11px;
 }
