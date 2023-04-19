@@ -417,6 +417,11 @@ body {
     line-height: 14.63px;
 }
 
+.checkbox-rich__title {
+    font-size: 12px;
+    line-height: 14.63px;
+}
+
 
 .checkbox-list {
     display: flex;
@@ -814,7 +819,7 @@ body {
 }
 
 .click-button_pagination-active {
-    width:40px;
+    width: 40px;
     height: 40px;
 }
 
@@ -851,13 +856,13 @@ body {
 }
 
 .click-button__container {
-   max-width: 300px;
-   width: 100%;
-   align-content: center;
-   align-items: center;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
+    max-width: 300px;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .click-button__title {
@@ -893,6 +898,7 @@ body {
     margin-top: 40px;
     margin-bottom: 242px;
 }
+
 .pagination__title {
     font-size: 12px;
     line-height: 14.63px;
@@ -903,20 +909,68 @@ body {
     flex-direction: row;
     margin-top: 17px;
 }
+
 .pagination-button {
     width: 40px;
     background: #FFFFFF;
     border: 0px;
 }
+
 .pagination-text {
     color: #1F204180;
 }
 
 .pagination-state {
     width: 229px;
-    height:24px;
+    height: 24px;
     font-size: 14px;
     line-height: 24px;
     color: #1F204180;
     margin-top: 11px;
+}
+
+.bullet {
+    margin-top: 99px;
+}
+
+.bullet-list {
+    max-width: 250px;
+    padding: 0;
+    margin: 0;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column ;
+    row-gap: 10px;
+}
+
+.bullet__title {
+    font-size: 12px;
+    line-height: 14.63px;
+}
+
+.bullet-list__element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 11px;
+    list-style: none;
+}
+
+.bullet-list__element::before {
+    content: "";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    background-color: #1F204140;
+    /* Change the color */
+    font-weight: bold;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: block;
+    /* Needed to add space between the bullet and the text */
+}
+
+.bullet-list__state {
+    font-size: 14px;
+    line-height: 24px;
+    color: #1F2041BF;
 }
