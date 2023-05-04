@@ -12,7 +12,7 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    column-gap: 126px;
+    column-gap: 106px;
 }
 
 .header__colors {
@@ -345,7 +345,7 @@ body {
     border: 1px solid rgba(31, 32, 65, 0.25);
     padding-bottom: 7px;
     border-radius: 0px 0px 4px 4px;
-    margin-top: -1px;
+   
 }
 
 .dropdown-list {
@@ -390,7 +390,7 @@ body {
 }
 
 .checkbox-buttons_rich {
-    margin-top: 98px;
+    margin-top: 102px;
 }
 
 .dropdown-button__image {
@@ -437,6 +437,7 @@ body {
 .checkbox-rich__title {
     font-size: 12px;
     line-height: 14.63px;
+    padding-bottom: 16px;
 }
 
 
@@ -488,6 +489,8 @@ body {
 .checkbox-list__state_rich {
     font-size: 12px;
     line-height: 14px;
+    max-width: 236px;
+    width:100%;
 }
 
 .advantages {
@@ -498,8 +501,8 @@ body {
 }
 
 .advantages_center {
-    margin-top: 276px;
-    row-gap: 10px;
+    margin-top: 224px;
+    row-gap: 0px;
 }
 
 .advantage {
@@ -613,13 +616,23 @@ body {
     appearance: none;
 }
 
+.dropdown-lists_center {
+    width: 340px;
+}
+
 .toggle-input {
     display: flex;
     align-items: center;
 }
 
 .center-page {
+    /* max-width: 320px;
+    width: 100%; */
     margin-top:27px;
+}
+
+.form-field__input_center {
+    /* margin-top: -0.94px; */
 }
 
 .toggle-button::after {
@@ -763,7 +776,7 @@ body {
 .right-page {
     max-width: 320px;
     width: 100%;
-    margin-top: 65px;
+    margin-top: 62px;
 }
 
 .range-slider {
@@ -792,7 +805,7 @@ body {
 
 .range-controls {
     position: relative;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
 }
 
 .range-controls__scale {
@@ -805,9 +818,9 @@ body {
 .range-controls__bar {
     position: absolute;
     top: -1px;
-    width: 33%;
+    width: 29%;
     height: 8px;
-    left: 34%;
+    left: 33%;
     border: 1px solid #FFFFFF;
     background: linear-gradient(#6FCF97, #66D2EA);
 }
@@ -825,11 +838,11 @@ body {
 }
 
 .range-toggle-min {
-    left: 33%;
+    left: 29%;
 }
 
 .range-toggle-max {
-    left: 66%;
+    left: 60%;
 }
 
 .buttons__title {
@@ -939,7 +952,7 @@ body {
 
 .pagination {
     margin-top: 40px;
-    margin-bottom: 242px;
+    margin-bottom: 230px;
 }
 
 .pagination__title {
