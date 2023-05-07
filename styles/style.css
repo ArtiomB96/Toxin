@@ -237,6 +237,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 6px;
+    max-width: 320px;
+    width:100%;
 }
 
 /* .form-field__header_drop-list {
@@ -271,6 +273,8 @@ body {
     border: 1px solid rgba(31, 32, 65, 0.25);
     border-radius: 4px;
     margin-top: -2px;
+    max-width: 320px;
+    width: 100%;
 }
 
 .form-field__text_dropdown {
@@ -291,7 +295,9 @@ body {
     margin-top: -5px;
 }
 
-
+.form-field__text_dropdown-open-center {
+    
+}
 
 .form-field__title {
     margin: 0;
@@ -805,11 +811,11 @@ body {
 
 .range-controls {
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 42px;
 }
 
 .range-controls__scale {
-    height: 6px;
+    height: 4px;
     border: 1px solid #1F204140;
     border-radius: 3px;
     background: rgba(255, 255, 255, 1);
