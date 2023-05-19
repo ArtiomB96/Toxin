@@ -20,68 +20,65 @@ body {
     margin-left: 30px;
 }
 
-.colors {
-    /* max-width: 282px;
-    width: 100%; */
+.columns {
     margin-top: 67px;
     margin-left: 150px;
     display: flex;
-    align-content: space-between;
+    flex-direction: row;
+    column-gap: 423px;
+
 }
 
-.colors__squares {
+.column {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
 }
 
-.colors__square {
+.color {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+.color__square {
     width: 70px;
     height: 70px;
     border-radius: 6px;
 }
 
-.colors__square_dark100 {
+.color__square_dark100 {
     background-color: #1F2041;
 }
 
-.colors__square_dark75 {
+.color__square_dark75 {
     background-color: #1F2041BF;
 }
 
-.colors__square_dark50 {
+.color__square_dark50 {
     background-color: #1F204180;
 }
 
-.colors__square_dark25 {
+.color__square_dark25 {
     background-color: #1F204140;
 }
 
-.colors__square_dark5 {
+.color__square_dark5 {
     background-color: #1F20410D;
 }
 
-.colors__square_purple {
+.color__square_purple {
     background-color: #BC9CFF;
 }
 
-.colors__square_green {
+.color__square_green {
     background-color: #6FCF97;
 }
 
-.colors__names {
-    display: flex;
-    flex-direction: column;
-    row-gap: 34px;
-    margin-left: 40px;
+.color__label {
+    align-items: center;
 }
 
-.colors__name {
-    max-height: 56px;
-    height: 100%;
-    max-width: 171px;
-    width: 100%;
-}
 
 .title {
     font-family: "Montserrat", "Arial", "Helvetica", sans-serif;
@@ -94,26 +91,19 @@ body {
     font-weight: 400;
 }
 
-.colors__title {
+.color__title {
     margin: 0;
     font-size: 19px;
     line-height: 27.79px;
 }
 
-.colors__subtitle {
+.color__subtitle {
     margin: 0;
     font-size: 19px;
     line-height: 27.79px;
 }
 
-.headlines {
-    display: flex;
-    margin-left: 423px;
-    flex-direction: column;
-    row-gap: 51px;
-}
-
-.headliens__names {
+.typography {
     display: flex;
     flex-direction: row;
 }
@@ -125,34 +115,34 @@ body {
     margin: 0;
 }
 
-.headlines__name {
+.typography__title {
     margin: 0;
 }
 
-.headlines__name_H1 {
+.typography__title_H1 {
     font-size: 24px;
     line-height: 29.26px;
     padding-left: 8px;
 }
 
-.headlines__name_H2 {
+.typography__title_H2 {
     font-size: 19px;
     line-height: 23.16px;
     padding-left: 10px;
 }
 
-.headlines__name_H3 {
+.typography__title_H3 {
     font-size: 12px;
     line-height: 14.63px;
     padding-left: 20px;
 }
 
-.headlines__name_body {
+.typography__title_body {
     font-size: 14px;
     line-height: 24px;
 }
 
-.headlines__description {
+.typography__example {
     max-width: 369px;
     width: 100%;
     font-family: "Montserrat", "Arial", "Helvetica", sans-serif;
@@ -161,22 +151,22 @@ body {
     margin-left: 30px;
 }
 
-.headlines__description_H1 {
+.typography__example_H1 {
     font-size: 24px;
     line-height: 29.26px;
 }
 
-.headlines__description_H2 {
+.typography__example_H2 {
     font-size: 19px;
     line-height: 23.16px;
 }
 
-.headlines__description_H3 {
+.typography__example_H3 {
     font-size: 12px;
     line-height: 14.63px;
 }
 
-.headlines__description_body {
+.typography__example_body {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -238,7 +228,7 @@ body {
     justify-content: space-between;
     margin-bottom: 6px;
     max-width: 320px;
-    width:100%;
+    width: 100%;
 }
 
 /* .form-field__header_drop-list {
@@ -248,7 +238,7 @@ body {
 
 .left-page {
     max-width: 340px;
-    width:100%;
+    width: 100%;
 }
 
 .form-field__image {
@@ -295,9 +285,7 @@ body {
     margin-top: -5px;
 }
 
-.form-field__text_dropdown-open-center {
-    
-}
+.form-field__text_dropdown-open-center {}
 
 .form-field__title {
     margin: 0;
@@ -310,7 +298,7 @@ body {
     font-size: 12px;
     line-height: 14.63px;
     color: #1F204180;
-    
+
 }
 
 .form-field_drop {
@@ -351,7 +339,7 @@ body {
     border: 1px solid rgba(31, 32, 65, 0.25);
     padding-bottom: 7px;
     border-radius: 0px 0px 4px 4px;
-   
+
 }
 
 .dropdown-list {
@@ -496,7 +484,7 @@ body {
     font-size: 12px;
     line-height: 14px;
     max-width: 236px;
-    width:100%;
+    width: 100%;
 }
 
 .advantages {
@@ -634,7 +622,7 @@ body {
 .center-page {
     /* max-width: 320px;
     width: 100%; */
-    margin-top:27px;
+    margin-top: 27px;
 }
 
 .form-field__input_center {
@@ -743,8 +731,8 @@ body {
 }
 
 .rate-button {
-  display: flex;
-  width: 142px;
+    display: flex;
+    width: 142px;
 }
 
 .rate-button__star {
@@ -1001,7 +989,7 @@ body {
     margin: 0;
     margin-top: 16px;
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     row-gap: 10px;
 }
 
@@ -1040,5 +1028,5 @@ body {
 
 .bullet-list__element_time::before {
     align-items: self-start;
-    
+
 }
