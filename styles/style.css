@@ -1034,6 +1034,15 @@ body {
 .card-columns {
     margin-top: 72px;
     margin-left: 140px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+.card-column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
 }
 .card {
     width: 380px;
@@ -1047,12 +1056,160 @@ body {
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
+    padding-bottom: 30px;
 }
 
+.card__info {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    max-width: 320px;
+    width: 100%;
+}
+
+.card__header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
 .card__title {
-    width: 320px;
     color: #1F2041;
     font-size: 24px;
     line-height: 29px;
-    margin-top: 40px;
+}
+
+.card__state {
+    max-width: 100px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.card-inputs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 21px;
+}
+
+.card-inputs_name {
+    row-gap: 10px;
+    margin-top: 20px;
+}
+
+.card-submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.card-text {
+    display: flex;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    align-items: center;
+} 
+
+.toggle-input_card {
+    margin-top: 10px;
+}
+.card__tag {
+    display: flex;
+    align-items: flex-end;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #BC9CFF;
+}
+
+    b {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+.tax-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 21px;
+}
+
+.service-cost {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.service-cost__info {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+
+.service-cost__state {
+    max-width: 214px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1F2041BF;
+}
+
+.card-sum {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.card-sum__title {
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F2041;
+}
+
+.border-bottom {
+    max-width: 170px;
+    width: 100%;
+    height: 13px;
+    border-top: #FFFFFF;
+    border-left: #FFFFFF;
+    border-right: #FFFFFF;
+    border-bottom: 1px dashed rgba(31, 32, 65, 0.25);
+    border-style: dotted;
+}
+
+.month {
+    /* padding: 70px 25px; */
+    max-width: 320px;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+}
+
+/* Month list */
+.month-info {
+    margin: 0;
+    padding: 0;
+}
+
+.month-name {
+    font-size: 19px;
+    line-height: 23.16px;
+    list-style-type: none;
+}
+
+/* Previous button inside month header */
+.month-button {
+    background: #FFFFFF;
+    border: #FFFFFF;
+}
+.month-prev {
+    float: left;
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+/* Next button */
+.month-next {
+    float: right;
+    padding-top: 10px;
+    list-style-type: none;
 }
