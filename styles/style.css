@@ -1175,19 +1175,30 @@ body {
     border-bottom: 1px dashed rgba(31, 32, 65, 0.25);
     border-style: dotted;
 }
+.card_calendar {
+   width: 320px;
+}
 
-.month {
-    /* padding: 70px 25px; */
-    max-width: 320px;
+.calendar {
+    max-width: 280px;
     width: 100%;
-    text-align: center;
-    list-style-type: none;
+    margin-top: 20px;
+}
+
+.calendar-info {
+    max-width: 280px;
+    width:100%;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 /* Month list */
 .month-info {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .month-name {
@@ -1201,15 +1212,86 @@ body {
     background: #FFFFFF;
     border: #FFFFFF;
 }
-.month-prev {
-    float: left;
-    padding-top: 10px;
-    list-style-type: none;
+
+.weekdays {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-/* Next button */
-.month-next {
-    float: right;
-    padding-top: 10px;
-    list-style-type: none;
+.week__name {
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #BC9CFF;
+}
+.day {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.day-button {
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: #FFFFFF;
+    padding: 0;
+}
+.day__number {
+    font-size: 12px;
+    line-height: 14.63px;
+    /* border: #FFFFFF; */
+}
+
+.day__number_start {
+    text-align: start;
+}
+
+.card_background-img {
+    max-width: 270px;
+    width: 100%;
+}
+
+.card-image {
+    position: relative;
+    max-width: 270px;
+    width: 100%;
+    height: 152px;
+    border-radius: 4px 4px 0px 0px;
+    background-image: url(../images/cards/background-img1.svg);
+}
+
+.button-expand {
+    position: absolute;
+    top: 54px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(28,28,28,0);
+    border: #FFFFFF;
+    padding: 0;
+}
+
+.button-expand_right {
+    right: 0;
+}
+
+.slide-buttons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0px;
+}
+
+.slide-button {
+    width: 22px;
+    height: 22px;
+    padding: 0;
+    background-color: rgba(28,28,28,0);
+    border: #FFFFFF;
+}
+
+.slide-image {
+    width: 7px;
 }
