@@ -1082,6 +1082,9 @@ body {
     max-width: 100px;
     width: 100%;
     font-size: 12px;
+    color: #1F204180;
+    display: flex;
+    align-items: center;
 }
 
 .card-inputs {
@@ -1264,6 +1267,10 @@ body {
     background-image: url(../images/cards/background-img1.svg);
 }
 
+.card-image_2 {
+    background-image: url(../images/cards/img-background2.svg); 
+}
+
 .button-expand {
     position: absolute;
     top: 54px;
@@ -1281,17 +1288,101 @@ body {
 .slide-buttons {
     display: flex;
     flex-direction: row;
-    column-gap: 0px;
+    column-gap: 3px;
+    position: absolute;
+    top: 129px;
+    right: 15px;
 }
 
 .slide-button {
-    width: 22px;
-    height: 22px;
+    width: 8px;
+    height: 8px;
     padding: 0;
     background-color: rgba(28,28,28,0);
-    border: #FFFFFF;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+.slide-button_active {
+    border: 5px solid #ffffff;
 }
 
-.slide-image {
-    width: 7px;
+.card__footer {
+    max-width: 233px;
+    width:100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    
+}
+
+.card__footer-info {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(31, 32, 65, 0.1);
+    padding-bottom: 10px;
+}
+
+.card__footer-info_review {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.card__title_footer {
+    font-size: 14px;
+    line-height: 17.5px;
+}
+
+.toxin-header {
+    display: flex;
+    flex-direction: row;
+    column-gap: 285px;
+    margin-top: 62px;
+
+}
+
+.toxin-label {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12.5px;
+    margin-left: 140px;
+}
+
+.toxin-info {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.toxin-checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.toxin-checkbox__image {
+    width: 13px;
+    height: 17px;
+    margin-left: 4px;
+}
+
+.toxin-info__title {
+    font-size: 14px;
+    line-height: 17.07px;
+}
+
+.toxin-info__state {
+    font-size: 14px;
+    line-height: 17.07px;
+    color: #1F204180;
+}
+
+.click-button_toxin {
+    width: 87px;
+    height: 34px;
+}
+.click-button_registration {
+    width: 196px;
+    height: 34px;
 }
