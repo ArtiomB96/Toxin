@@ -1375,15 +1375,29 @@ b {
     padding-left: 140px;
 }
 
+.toxin-header__label {
+    width: 40px;
+    height: 40px;
+}
+
+.toxin-header__image {
+    width: 53px;
+    height: 70px;
+}
+
 .toxin-header_user {
     column-gap: 466px;
+}
+
+.toxin-header_landing {
+    box-shadow: none;
 }
 
 .toxin-label {
     display: flex;
     flex-direction: row;
     column-gap: 12.5px;
-
+    align-items: center;
 }
 
 .toxin-info {
@@ -1439,6 +1453,10 @@ b {
     max-width: 1440px;
     width: 100%;
     padding-left: 140px;
+}
+
+.toxin-navigation_landing {
+    box-shadow: none;
 }
 
 .toxin-columns {
@@ -1543,4 +1561,35 @@ b {
     opacity: 0.25;
     position: absolute;
     left: 24px;
+}
+
+.landing-center {
+    position: relative;
+    max-width: 1534px;
+    width: 100%;
+    height: 900px;
+    background-image: url(../images/landing-page/landing-background.svg);
+}
+
+.card_landing {
+    position: absolute;
+    top: 70px;
+    left: 150px;
+}
+
+.landing__state {
+    position: absolute;
+    width: 297px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: #1F2041BF;
+    right: 160px;
+    bottom: 18px;
+}
+
+.card_calendar-landing {
+    position: absolute;
+    top: 260px;
+    left: 181px;
 }
