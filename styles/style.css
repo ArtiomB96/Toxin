@@ -775,6 +775,7 @@ body {
 .range-slider {
     max-width: 266px;
     width: 100%;
+    margin-bottom: 42px;
 }
 
 .range-slider__header {
@@ -798,7 +799,7 @@ body {
 
 .range-controls {
     position: relative;
-    margin-bottom: 42px;
+    
 }
 
 .range-controls__scale {
@@ -1592,4 +1593,55 @@ b {
     position: absolute;
     top: 260px;
     left: 181px;
+}
+
+.form-field_landing {
+    position: absolute;
+    top: 339px;
+    left: 181px;
+}
+
+.form-field_drops {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.dropdown-lists_landing {
+    max-width: 320px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.dropdown-list_landing {
+    max-width: 320px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.search-room {
+    margin-top: 30px;
+    padding-left: 140px;
+}
+
+.search-room__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.form-field_drop {
+    
+}
+
+.range-slider_search-room {
+    margin: 0;
+}
+
+.checkbox-buttons_searh-room {
+    margin: 0;
+}
+
+.card-image_980 {
+    background-image: url(/Toxin/images/search-room/room980.svg);
 }
