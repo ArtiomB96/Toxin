@@ -1269,7 +1269,7 @@ b {
 
 .card_background-img {
     max-width: 270px;
-    width: 100%;
+    
 }
 
 .card-states {
@@ -1624,10 +1624,28 @@ b {
     padding-left: 140px;
 }
 
+.search-content {
+    display: flex;
+    flex-direction: row;
+    column-gap: 60px;
+}
+
 .search-room__info {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
+}
+
+.search-room__cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.search-room__card-group {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
 }
 
 .form-field_drop {
@@ -1644,4 +1662,48 @@ b {
 
 .card-image_980 {
     background-image: url(/Toxin/images/search-room/room980.svg);
+}
+
+.card-image_856 {
+    background-image: url(/Toxin/images/search-room/room856.svg);
+}
+
+.card-image_740 {
+    background-image: url(/Toxin/images/search-room/room740.svg);
+}
+
+.card-image_982 {
+    background-image: url(/Toxin/images/search-room/room982.svg);
+}
+
+.card-image_678 {
+    background-image: url(/Toxin/images/search-room/room678.svg);
+}
+
+.card-image_450 {
+    background-image: url(/Toxin/images/search-room/room450.svg);
+}
+
+.card-image_350 {
+    background-image: url(/Toxin/images/search-room/room350.svg);
+}
+
+.card-image_666 {
+    background-image: url(/Toxin/images/search-room/room666.svg);
+}
+
+.card-image_444 {
+    background-image: url(/Toxin/images/search-room/room444.svg);
+}
+
+.card-image_352 {
+    background-image: url(/Toxin/images/search-room/room352.svg);
+}
+
+.pagination_search-room {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 160px;
 }
