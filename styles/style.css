@@ -1711,3 +1711,20 @@ b {
 .checkbox-name__title_search-room {
     margin: 0;
 }
+
+.landing-center_registration {
+    height: 750px;
+    background-image: url(../images/landing-page/registration.svg);
+}
+
+.card_registration {
+    position: absolute;
+    top: 20px;
+    left: 500px;
+}
+
+.card_sign {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
