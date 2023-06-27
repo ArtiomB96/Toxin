@@ -1022,6 +1022,8 @@ body {
 }
 
 .bullet-list__state {
+    max-width: 341px;
+    width: 100%;
     font-size: 14px;
     line-height: 24px;
     color: #1F2041BF;
@@ -1727,4 +1729,139 @@ b {
     position: absolute;
     top: 200px;
     left: 500px;
+}
+
+.room-images {
+    margin-left: 140px;
+    display: flex;
+    flex-direction: row;
+}
+
+.room-image {
+    max-width: 981px;
+    width: 100%;
+}
+
+.room-image_2 {
+    max-width: 461px;
+    width: 100%;
+    max-height: 243px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.images-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.room {
+    margin-left: 140px;
+    margin-top: 88px;
+}
+
+.room-info {
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+}
+
+.advantages_room {
+    margin:0;
+}
+
+.advantage_room {
+    border-bottom: #FFFFFF;
+}
+
+.room-statistic {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.room-diagram {
+ width: 120px;
+ height: 120px;
+}
+
+.room-impression__title {
+    margin-bottom: 20px;
+}
+
+.bullet_room {
+    margin-top: 20px;
+}
+
+.bullet-list_room {
+    row-gap: 0px;
+}
+
+
+
+.bullet-list__element_yellow::before {
+    background: linear-gradient(#FFE39C, #FFBA9C);
+}
+
+.bullet-list__element_green::before {
+    background: linear-gradient(#6FCF97, #66D2EA);
+}
+
+.bullet-list__element_purple::before {
+    background: linear-gradient(#BC9CFF, #8BA4F9);
+}
+
+.bullet-list__element_black::before {
+    background: linear-gradient(#909090, #3D4975);
+}
+
+.advantages_room-review {
+    margin-top: 20px;
+    row-gap: 0px;
+}
+
+.room {
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
+}
+
+.room-review {
+    margin-top: 40px;
+}
+
+.room-review__header {
+    max-width: 712px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.room-review__state {
+    display: flex;
+    align-items: end;
+}
+
+.room-conditions {
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    margin-top: 40px;
+}
+
+.bullet_conditions {
+    margin: 0;
+}
+
+.bullet__title_conditions {
+    margin-left: 20px;
+}
+
+.bullet__title_cancel {
+    margin-bottom: 16px;
+}
+
+.card_room {
+    height: 512px;
 }
