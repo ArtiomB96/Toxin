@@ -1,0 +1,6 @@
+.advantages {
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+}

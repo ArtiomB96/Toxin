@@ -1,0 +1,8 @@
+.form-field__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    max-width: 320px;
+    width: 100%;
+}

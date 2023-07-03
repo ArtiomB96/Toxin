@@ -1,0 +1,9 @@
+.click-button__container {
+    max-width: 300px;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

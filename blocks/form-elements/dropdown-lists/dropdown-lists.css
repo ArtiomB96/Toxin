@@ -1,0 +1,7 @@
+.dropdown-lists {
+    max-width: 263px;
+    width: 100%;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    padding-bottom: 7px;
+    border-radius: 0px 0px 4px 4px;
+}

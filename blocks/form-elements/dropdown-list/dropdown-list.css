@@ -1,0 +1,9 @@
+.dropdown-list {
+    max-width: 266px;
+    width: 100%;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    border: #FFFFFF;
+}

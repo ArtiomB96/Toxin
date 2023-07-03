@@ -1,0 +1,9 @@
+.range-controls__bar {
+    position: absolute;
+    top: -1px;
+    width: 29%;
+    height: 8px;
+    left: 33%;
+    border: 1px solid #FFFFFF;
+    background: linear-gradient(#6FCF97, #66D2EA);
+}

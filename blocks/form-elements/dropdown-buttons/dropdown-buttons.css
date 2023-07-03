@@ -1,0 +1,8 @@
+.dropdown-buttons {
+    max-width: 92px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 19px;
+}

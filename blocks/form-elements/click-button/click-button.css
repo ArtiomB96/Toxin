@@ -1,0 +1,14 @@
+.click-button {
+    max-width: 99px;
+    width: 100%;
+    height: 44px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border: none;
+    border-radius: 22px;
+}
+
+.click-button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 0.5s;
+}

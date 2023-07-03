@@ -1,0 +1,8 @@
+.form-field__text_dropdown-open {
+    max-width: 263px;
+    width: 100%;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-radius: 4px 4px 0px 0px;
+    border-bottom: 0px;
+    margin-top: -5px;
+}

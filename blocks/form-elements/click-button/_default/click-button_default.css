@@ -1,0 +1,11 @@
+.click-button_default {
+    border: 2px solid transparent;
+    /*Обводка нужной толщины, но прозрачная*/
+    background: linear-gradient(180deg, #BC9CFF 100%, #8BA4F9 100%);
+    /*Нужный градиент в качестве фона*/
+    box-shadow: inset 0px 0px 0px 100vw #fff;
+    /* Тень направленная внутрь контейнера, перекрывает ненужный фон и оставляет только рамку */
+    border-radius: 22px;
+    /*Скругляет углы*/
+    display: inline-block;
+}

@@ -1,0 +1,3 @@
+.bullet-list__element_time::before {
+    align-items: self-start;
+}

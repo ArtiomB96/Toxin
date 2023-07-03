@@ -1,0 +1,7 @@
+.form-field__dropdown-dates {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    max-width: 320px;
+    width: 100%;
+}

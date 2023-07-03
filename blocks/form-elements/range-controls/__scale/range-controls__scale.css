@@ -1,0 +1,6 @@
+.range-controls__scale {
+    height: 4px;
+    border: 1px solid #1F204140;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 1);
+}

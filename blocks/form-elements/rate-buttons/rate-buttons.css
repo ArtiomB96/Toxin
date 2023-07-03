@@ -1,0 +1,6 @@
+.rate-buttons {
+    margin-top: 16px;
+    margin-bottom: 196px;
+    display: flex;
+    flex-direction: row;
+}

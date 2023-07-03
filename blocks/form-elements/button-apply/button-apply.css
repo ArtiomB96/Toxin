@@ -1,0 +1,6 @@
+.button-apply {
+    background-color: rgba(28, 28, 28, 0);
+    border: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+}
