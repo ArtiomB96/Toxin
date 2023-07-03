@@ -35,49 +35,25 @@ body {
     row-gap: 20px;
 }
 
-.color {
-    display: flex;
-    flex-direction: row;
-    column-gap: 40px;
-}
 
-.color__square {
-    width: 70px;
-    height: 70px;
-    border-radius: 6px;
-}
 
-.color__square_dark100 {
-    background-color: #1F2041;
-}
 
-.color__square_dark75 {
-    background-color: #1F2041BF;
-}
 
-.color__square_dark50 {
-    background-color: #1F204180;
-}
 
-.color__square_dark25 {
-    background-color: #1F204140;
-}
 
-.color__square_dark5 {
-    background-color: #1F20410D;
-}
 
-.color__square_purple {
-    background-color: #BC9CFF;
-}
 
-.color__square_green {
-    background-color: #6FCF97;
-}
 
-.color__label {
-    align-items: center;
-}
+
+
+
+
+
+
+
+
+
+
 
 
 .title {
@@ -91,22 +67,11 @@ body {
     font-weight: 400;
 }
 
-.color__title {
-    margin: 0;
-    font-size: 19px;
-    line-height: 27.79px;
-}
 
-.color__subtitle {
-    margin: 0;
-    font-size: 19px;
-    line-height: 27.79px;
-}
 
-.typography {
-    display: flex;
-    flex-direction: row;
-}
+
+
+
 
 .state {
     font-family: "Montserrat", "Arial", "Helvetica", sans-serif;
@@ -115,63 +80,25 @@ body {
     margin: 0;
 }
 
-.typography__title {
-    margin: 0;
-}
 
-.typography__title_H1 {
-    font-size: 24px;
-    line-height: 29.26px;
-    padding-left: 8px;
-}
 
-.typography__title_H2 {
-    font-size: 19px;
-    line-height: 23.16px;
-    padding-left: 10px;
-}
 
-.typography__title_H3 {
-    font-size: 12px;
-    line-height: 14.63px;
-    padding-left: 20px;
-}
 
-.typography__title_body {
-    font-size: 14px;
-    line-height: 24px;
-}
 
-.typography__example {
-    max-width: 369px;
-    width: 100%;
-    font-family: "Montserrat", "Arial", "Helvetica", sans-serif;
-    font-weight: 700;
-    margin: 0;
-    margin-left: 30px;
-}
 
-.typography__example_H1 {
-    font-size: 24px;
-    line-height: 29.26px;
-}
 
-.typography__example_H2 {
-    font-size: 19px;
-    line-height: 23.16px;
-}
 
-.typography__example_H3 {
-    font-size: 12px;
-    line-height: 14.63px;
-}
 
-.typography__example_body {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #1F2041BF;
-}
+
+
+
+
+
+
+
+
+
+
 
 .form {
     display: flex;
