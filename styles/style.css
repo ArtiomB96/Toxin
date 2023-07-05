@@ -468,176 +468,60 @@ b {
 
 
 
-.toxin-content {
-    display: flex;
-    flex-direction: column;
-    row-gap: 40px;
-    margin-top: 62px;
-    align-items: center;
-    max-width: 1440px;
-    width: 100%;
-}
 
-.toxin-header {
-    display: flex;
-    flex-direction: row;
-    column-gap: 285px;
-    background: #FFFFFF;
-    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
-    width: 1440px;
-    height: 70px;
-    padding-left: 140px;
-}
 
-.toxin-header__label {
-    width: 40px;
-    height: 40px;
-}
 
-.toxin-header__image {
-    width: 53px;
-    height: 70px;
-}
 
-.toxin-header_user {
-    column-gap: 466px;
-}
 
-.toxin-header_landing {
-    box-shadow: none;
-}
 
-.toxin-label {
-    display: flex;
-    flex-direction: row;
-    column-gap: 12.5px;
-    align-items: center;
-}
 
-.toxin-info {
-    display: flex;
-    flex-direction: row;
-    column-gap: 20px;
-    align-items: center;
-}
 
-.toxin-checkbox {
-    display: flex;
-    flex-direction: row;
-}
 
-.toxin-checkbox__image {
-    width: 13px;
-    height: 17px;
-    margin-left: 4px;
-}
 
-.toxin-info__title {
-    font-size: 14px;
-    line-height: 17.07px;
-}
 
-.toxin-info__state {
-    font-size: 14px;
-    line-height: 17.07px;
-    color: #1F204180;
-}
 
-.click-button_toxin {
-    width: 87px;
-    height: 34px;
-}
 
-.click-button_registration {
-    width: 196px;
-    height: 34px;
-}
 
-.toxin-line {
-    width: 1px;
-    height: 30px;
-    background-color: rgba(31, 32, 65, 0.1);
-}
 
-.toxin-navigation {
-    max-width: 1440px;
-    width: 79%;
-    background: #FFFFFF;
-    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
-    max-width: 1440px;
-    width: 100%;
-    padding-left: 140px;
-}
 
-.toxin-navigation_landing {
-    box-shadow: none;
-}
 
-.toxin-columns {
-    display: flex;
-    flex-direction: row;
-    column-gap: 79px;
-    padding-top: 104px;
-}
 
-.toxin-column {
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-    align-items: flex-start;
-}
 
-.toxin-column__text {
-    font-size: 14px;
-    line-height: 24px;
-    color: #1F2041BF;
-    max-width: 260px;
-    width: 100%;
-}
 
-.toxin-column__title {
-    font-size: 12px;
-    line-height: 14.63px;
-}
 
-.toxin-column__state {
-    font-size: 14px;
-    line-height: 17px;
-    color: #1F204180;
-}
 
-.form-field_toxin {
-    margin: 0;
-}
 
-.columns-footer {
-    max-width: 1440px;
-    width:100%;
-    border-top: 1px solid rgba(31, 32, 65, 0.1);
-    margin-top: 100px;
-}
 
-.columns-footer__info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 1160px;
-    width: 100%;
-    margin-top: 26px;
-    margin-bottom: 26px;
-}
 
-.columns-footer__text {
-    font-size: 14px;
-    line-height: 17.07px;
-    color: #1F2041BF;
-}
 
-.toxin-icons {
-    display: flex;
-    flex-direction: row;
-    column-gap: 20px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .page_grey {
@@ -645,28 +529,11 @@ b {
     background: #F4F4F6;
 }
 
-.toxin-footer {
-    display: flex;
-    justify-content: center;
-    background: #FFFFFF;
-    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
-    width: 768px;
-    height: 367px;
-    align-items: center;
-}
 
-.toxin-footer__info {
-    display: flex;
-    flex-direction: column;
-    row-gap: 25px;
-    align-items: center;
-}
 
-.toxin-footer__text {
-    font-size: 14px;
-    line-height: 17.07px;
-    color: #1F2041BF;
-}
+
+
+
 
 .rectangle {
     width: 159px;

@@ -1,0 +1,6 @@
+.toxin-label {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12.5px;
+    align-items: center;
+}

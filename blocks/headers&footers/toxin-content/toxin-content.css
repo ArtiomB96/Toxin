@@ -1,0 +1,9 @@
+.toxin-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-top: 62px;
+    align-items: center;
+    max-width: 1440px;
+    width: 100%;
+}

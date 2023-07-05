@@ -1,0 +1,6 @@
+.toxin-columns {
+    display: flex;
+    flex-direction: row;
+    column-gap: 79px;
+    padding-top: 104px;
+}

@@ -1,0 +1,14 @@
+.click-button_registration {
+    width: 196px;
+    height: 34px;
+    height: 44px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border: none;
+    border-radius: 22px;
+}
+
+.click-button_registration:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 0.5s;
+}
