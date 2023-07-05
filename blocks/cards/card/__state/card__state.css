@@ -1,0 +1,8 @@
+.card__state {
+    max-width: 100px;
+    width: 100%;
+    font-size: 12px;
+    color: #1F204180;
+    display: flex;
+    align-items: center;
+}

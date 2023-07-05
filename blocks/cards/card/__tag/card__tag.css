@@ -1,0 +1,7 @@
+.card__tag {
+    display: flex;
+    align-items: flex-end;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #BC9CFF;
+}

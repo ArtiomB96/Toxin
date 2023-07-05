@@ -1,0 +1,10 @@
+.border-bottom {
+    max-width: 170px;
+    width: 100%;
+    height: 13px;
+    border-top: #FFFFFF;
+    border-left: #FFFFFF;
+    border-right: #FFFFFF;
+    border-bottom: 1px dashed rgba(31, 32, 65, 0.25);
+    border-style: dotted;
+}

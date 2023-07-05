@@ -1,0 +1,8 @@
+.slide-button {
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    background-color: rgba(28, 28, 28, 0);
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}

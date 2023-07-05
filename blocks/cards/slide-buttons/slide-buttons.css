@@ -1,0 +1,8 @@
+.slide-buttons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3px;
+    position: absolute;
+    top: 129px;
+    right: 15px;
+}

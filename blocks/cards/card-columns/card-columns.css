@@ -1,0 +1,7 @@
+.card-columns {
+    margin-top: 72px;
+    margin-left: 140px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}

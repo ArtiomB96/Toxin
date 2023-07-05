@@ -1,4 +1,8 @@
 .click-button_pagination-active {
     width: 40px;
     height: 40px;
+    height: 44px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border: none;
+    border-radius: 22px;
 }

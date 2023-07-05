@@ -1,0 +1,6 @@
+.card__footer-info {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(31, 32, 65, 0.1);
+    padding-bottom: 10px;
+}

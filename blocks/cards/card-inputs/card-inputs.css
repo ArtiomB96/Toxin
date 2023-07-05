@@ -1,0 +1,5 @@
+.card-inputs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 21px;
+}
