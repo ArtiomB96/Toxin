@@ -544,42 +544,15 @@ b {
     left: 24px;
 }
 
-.landing-center {
-    position: relative;
-    max-width: 1534px;
-    width: 100%;
-    height: 900px;
-    background-image: url(../images/landing-page/landing-background.svg);
-}
 
-.card_landing {
-    position: absolute;
-    top: 70px;
-    left: 150px;
-}
 
-.landing__state {
-    position: absolute;
-    width: 297px;
-    font-size: 14px;
-    line-height: 24px;
-    text-align: right;
-    color: #1F2041BF;
-    right: 160px;
-    bottom: 18px;
-}
 
-.card_calendar-landing {
-    position: absolute;
-    top: 260px;
-    left: 181px;
-}
 
-.form-field_landing {
-    position: absolute;
-    top: 339px;
-    left: 181px;
-}
+
+
+
+
+
 
 .form-field_drops {
     display: flex;
@@ -587,110 +560,49 @@ b {
     row-gap: 20px;
 }
 
-.dropdown-lists_landing {
-    max-width: 320px;
-    width: 100%;
-    background-color: #FFFFFF;
-}
 
-.dropdown-list_landing {
-    max-width: 320px;
-    width: 100%;
-    justify-content: space-between;
-}
 
-.search-room {
-    margin-top: 30px;
-    padding-left: 140px;
-}
 
-.search-content {
-    display: flex;
-    flex-direction: row;
-    column-gap: 60px;
-}
 
-.search-room__info {
-    display: flex;
-    flex-direction: column;
-    row-gap: 30px;
-}
 
-.search-room__cards {
-    display: flex;
-    flex-direction: column;
-    row-gap: 8px;
-}
 
-.search-room__card-group {
-    display: flex;
-    flex-direction: row;
-    column-gap: 8px;
-}
 
-.form-field_drop {
-    
-}
 
-.range-slider_search-room {
-    margin: 0;
-}
 
-.checkbox-buttons_searh-room {
-    margin: 0;
-}
 
-.card-image_980 {
-    background-image: url(/Toxin/images/search-room/room980.svg);
-}
 
-.card-image_856 {
-    background-image: url(/Toxin/images/search-room/room856.svg);
-}
 
-.card-image_740 {
-    background-image: url(/Toxin/images/search-room/room740.svg);
-}
 
-.card-image_982 {
-    background-image: url(/Toxin/images/search-room/room982.svg);
-}
 
-.card-image_678 {
-    background-image: url(/Toxin/images/search-room/room678.svg);
-}
 
-.card-image_450 {
-    background-image: url(/Toxin/images/search-room/room450.svg);
-}
 
-.card-image_350 {
-    background-image: url(/Toxin/images/search-room/room350.svg);
-}
 
-.card-image_666 {
-    background-image: url(/Toxin/images/search-room/room666.svg);
-}
 
-.card-image_444 {
-    background-image: url(/Toxin/images/search-room/room444.svg);
-}
 
-.card-image_352 {
-    background-image: url(/Toxin/images/search-room/room352.svg);
-}
 
-.pagination_search-room {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 160px;
-}
 
-.checkbox-name__title_search-room {
-    margin: 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .landing-center_registration {
     height: 750px;

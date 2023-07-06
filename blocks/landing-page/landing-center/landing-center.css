@@ -1,0 +1,7 @@
+.landing-center {
+    position: relative;
+    max-width: 1534px;
+    width: 100%;
+    height: 900px;
+    background-image: url(/images/landing-page/landing-background.svg);
+}
