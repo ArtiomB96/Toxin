@@ -1,0 +1,26 @@
+blocks
+form-field
+  __header
+  __title
+  __state
+  __input
+   _opacity
+   _focus
+   _text /* guest в версии 1 */
+  __check  /* text в версии 1 */
+  __button
+  __image
+checkbox-list
+  _closed
+  __name
+  __button
+  __list
+    checkbox
+      __input
+      __title
+advantage
+  __image
+  __title
+  __state
+
+     
