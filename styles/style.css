@@ -228,7 +228,7 @@ body {
     opacity: 0.5;
 }
 
-.form-field__input_guest {
+.form-field__input_text {
     border: #FFFFFF;
 }
 
@@ -243,6 +243,20 @@ body {
     margin-bottom: 6px;
     max-width: 320px;
     width: 100%;
+}
+
+.form-field__toggle-button {
+    background-color: rgba(28, 28, 28, 0);
+    border: #FFFFFF;
+    width: 44px;
+    height: 44px;
+}
+
+.form-field__submit-button {
+    background-color: rgba(28, 28, 28, 0);
+    border: #FFFFFF;
+    width: 44px;
+    height: 44px;
 }
 
 /* .form-field__header_drop-list {
@@ -264,33 +278,29 @@ body {
 
 
 .check-button {
-    background-color: rgba(28, 28, 28, 0);
-    border: #FFFFFF;
-    width: 44px;
-    height: 44px;
+    
 }
 
-.form-field__text {
+.form-field_type_dropdown {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     border: 1px solid rgba(31, 32, 65, 0.25);
     border-radius: 4px;
-    margin-top: -2px;
     max-width: 320px;
     width: 100%;
 }
 
-.form-field__text_dropdown {
+.form-field_size_small {
     width: 150px;
 }
 
-.form-field__text_dropdown-filter {
+.form-field_size_middle {
     max-width: 266px;
     width: 100%;
 }
 
-.form-field__text_dropdown-open {
+.form-field_open {
     max-width: 263px;
     width: 100%;
     border: 1px solid rgba(31, 32, 65, 0.25);
@@ -314,19 +324,27 @@ body {
     color: var(--dark50);
 }
 
-.form-field_drop {
+/* .form-field_size_middle {
     max-width: 266px;
     width: 100%;
+} */
+
+.form-elements__drops {
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
 }
 
-.form-field_drop-list {
-    max-width: 263px;
-    width: 100%;
+.form-elements__dropdown-list {
     margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
 }
 
-.form-field__dropdown-dates {
+.form-elements__dropdown-dates {
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     column-gap: 15px;
@@ -341,7 +359,7 @@ body {
     border: #FFFFFF;
 }
 
-.form-field__header_drop-list {
+.form-field__header_size_middle {
     max-width: 266px;
     width: 100%;
 }
@@ -352,7 +370,6 @@ body {
     border: 1px solid rgba(31, 32, 65, 0.25);
     padding-bottom: 7px;
     border-radius: 0px 0px 4px 4px;
-
 }
 
 .dropdown-list {
