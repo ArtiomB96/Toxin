@@ -309,6 +309,12 @@ body {
     margin-top: -5px;
 }
 
+.form-field_open_size_large {
+    max-width: 320px;
+    width: 100%;
+}
+
+
 
 
 .form-field__title {
@@ -343,6 +349,8 @@ body {
     row-gap: 20px;
 }
 
+
+
 .form-elements__dropdown-dates {
     margin-top: 20px;
     display: flex;
@@ -364,12 +372,17 @@ body {
     width: 100%;
 }
 
-.dropdown-lists {
+.form-field_type_dropdown__list {
     max-width: 263px;
     width: 100%;
     border: 1px solid rgba(31, 32, 65, 0.25);
     padding-bottom: 7px;
     border-radius: 0px 0px 4px 4px;
+}
+
+.form-field_type_dropdown__list_large {
+    max-width: 320px;
+    width: 100%;
 }
 
 .dropdown-list {
@@ -650,8 +663,8 @@ body {
 }
 
 .center-page {
-    /* max-width: 320px;
-    width: 100%; */
+    max-width: 320px;
+    width: 100%;
     margin-top: 27px;
 }
 
