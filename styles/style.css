@@ -309,7 +309,7 @@ body {
     margin-top: -5px;
 }
 
-.form-field_open_size_large {
+.form-field_size_large {
     max-width: 320px;
     width: 100%;
 }
@@ -385,7 +385,7 @@ body {
     width: 100%;
 }
 
-.dropdown-list {
+.form-field_type_dropdown__list-item {
     max-width: 266px;
     width: 100%;
     border: 1px solid rgba(31, 32, 65, 0.25);
@@ -395,7 +395,7 @@ body {
     border: #FFFFFF;
 }
 
-.dropdown-list__title {
+.form-field_type_dropdown__title {
     max-width: 133px;
     width: 100%;
     margin-left: 15px;
@@ -407,7 +407,7 @@ body {
     line-height: 14.63px;
 }
 
-.dropdown-buttons {
+.form-field_type_dropdown__counter {
     max-width: 92px;
     width: 100%;
     display: flex;
@@ -416,7 +416,7 @@ body {
     margin-left: 19px;
 }
 
-.dropdown-button {
+.form-field_type_dropdown__button {
     max-width: 30px;
     width: 100%;
     height: 30px;
@@ -430,7 +430,7 @@ body {
     margin-top: 102px;
 }
 
-.dropdown-button__image {
+.form-field_type_dropdown__image {
     width: 8px;
     height: 9px;
 }
@@ -443,7 +443,7 @@ body {
     align-items: center;
 }
 
-.dropdown-button_null {
+.form-field_type_dropdown__button_null {
     opacity: 0.5;
 }
 
@@ -653,7 +653,7 @@ body {
     appearance: none;
 }
 
-.dropdown-lists_center {
+.form-field_type_dropdown__list-items_center {
     width: 340px;
 }
 
@@ -1653,13 +1653,13 @@ b {
     row-gap: 20px;
 }
 
-.dropdown-lists_landing {
+.form-field_type_dropdown__list-items_landing {
     max-width: 320px;
     width: 100%;
     background-color: #FFFFFF;
 }
 
-.dropdown-list_landing {
+.form-field_type_dropdown__list-item_landing {
     max-width: 320px;
     width: 100%;
     justify-content: space-between;
