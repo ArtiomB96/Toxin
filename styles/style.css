@@ -245,7 +245,7 @@ body {
     width: 100%;
 }
 
-.form-field__toggle-button {
+.form-field__toggle-element__input {
     background-color: rgba(28, 28, 28, 0);
     border: #FFFFFF;
     width: 44px;
@@ -433,7 +433,7 @@ body {
     margin-top: 7px;
 }
 
-.checkbox-buttons_rich {
+.form-elements__checkbox-list_rich {
     margin-top: 102px;
 }
 
@@ -544,14 +544,14 @@ body {
     width: 100%;
 }
 
-.advantages {
+.form-elements__advantages {
     margin-top: 88px;
     display: flex;
     flex-direction: column;
     row-gap: 23px;
 }
 
-.advantages_center {
+.form-elements__advantages_center {
     margin-top: 224px;
     row-gap: 0px;
 }
@@ -575,13 +575,13 @@ body {
     margin-bottom: 17px;
 }
 
-.advantage-image {
+.advantage__image {
     max-width: 48px;
     width: 100%;
     height: 48px;
 }
 
-.advantage-image_murad {
+.advantage__image_murad {
     border-radius: 50%;
 }
 
@@ -590,37 +590,37 @@ body {
     line-height: 24px;
 }
 
-.advantage__state {
+.advantage__text {
     font-size: 14px;
     line-height: 24px;
 }
 
-.advantage__state_center {
+.advantage__text_center {
     width: 653px;
 }
 
-.radio-buttons {
+.form-elements__radio-checkbox__inputs {
     margin-top: 32px;
 }
 
-.radio-buttons__title {
+.radio__title {
     font-size: 12px;
     line-height: 14.63px;
 }
 
-.radio-checkbuttons {
+.radio__checkbuttons {
     display: flex;
     flex-direction: row;
     column-gap: 20px;
     margin-top: 11px;
 }
 
-.radio-checkbutton {
+.radio-checkbox {
     display: flex;
     align-items: center;
 }
 
-.radio-button {
+.radio-checkbox__input {
     width: 20px;
     height: 20px;
     margin: 0;
@@ -628,13 +628,13 @@ body {
     background: #FFFFFF;
 }
 
-.radio-button__state {
+.radio-checkbox__title {
     margin-left: 10px;
     font-size: 14px;
     line-height: 24px;
 }
 
-.toggle {
+.form-elements__toggle {
     margin-top: 41px;
 }
 
@@ -643,14 +643,14 @@ body {
     line-height: 14.63px;
 }
 
-.toggle-buttons {
+.toggle {
     margin-top: 12px;
     display: flex;
     flex-direction: column;
     row-gap: 10px;
 }
 
-.toggle-button {
+.toggle-element__input {
     position: relative;
     display: inline-block;
     width: 40px;
@@ -671,7 +671,7 @@ body {
     width: 340px;
 }
 
-.toggle-input {
+.toggle-element {
     display: flex;
     align-items: center;
 }
@@ -686,7 +686,7 @@ body {
     /* margin-top: -0.94px; */
 }
 
-.toggle-button::after {
+.toggle-element__input::after {
     content: "";
     display: inline-block;
     position: absolute;
@@ -700,16 +700,16 @@ body {
 }
 
 
-.toggle-button:checked::after {
+.toggle-element__input:checked::after {
     transform: translateX(calc(100% + 6px));
     background-color: var(--purple);
 }
 
-.toggle-button:checked {
+.toggle-element__input:checked {
     border: 1px solid var(--purple);
 }
 
-.toggle__state {
+.toggle-element__title {
     color: var(--dark75);
     font-size: 14px;
     line-height: 24px;
@@ -1178,7 +1178,7 @@ body {
     align-items: center;
 }
 
-.toggle-input_card {
+.toggle-element_card {
     margin-top: 10px;
 }
 
@@ -1824,7 +1824,7 @@ b {
     column-gap: 100px;
 }
 
-.advantages_room {
+.form-elements__advantages_room {
     margin:0;
 }
 
@@ -1873,7 +1873,7 @@ b {
     background: var(--gradientGrey);
 }
 
-.advantages_room-review {
+.form-elements__advantages_room-review {
     margin-top: 20px;
     row-gap: 0px;
 }
