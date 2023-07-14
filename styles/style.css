@@ -277,9 +277,7 @@ body {
 
 
 
-.check-button {
-    
-}
+
 
 .form-field_type_dropdown {
     display: flex;
@@ -395,6 +393,11 @@ body {
     border: #FFFFFF;
 }
 
+.form-field_type_dropdown__list-item_large {
+    max-width: 320px;
+    width: 100%;
+}
+
 .form-field_type_dropdown__title {
     max-width: 133px;
     width: 100%;
@@ -414,6 +417,10 @@ body {
     flex-direction: row;
     justify-content: space-between;
     margin-left: 19px;
+}
+
+.form-field_type_dropdown__counter_large {
+    margin-left: 69px;
 }
 
 .form-field_type_dropdown__button {
@@ -447,11 +454,11 @@ body {
     opacity: 0.5;
 }
 
-.checkbox-buttons {
+.form-elements__checkbox-list {
     margin-top: 19px;
 }
 
-.checkbox-name {
+.checkbox-list__name {
     max-width: 266px;
     width: 100%;
     display: flex;
@@ -459,11 +466,18 @@ body {
     justify-content: space-between;
 }
 
-.checkbox-name_center {
+.checkbox-list__button {
+    background-color: rgba(28, 28, 28, 0);
+    border: #FFFFFF;
+    width: 44px;
+    height: 44px;
+}
+
+.checkbox-list__name_center {
     padding-bottom: 17px;
 }
 
-.checkbox-name__title {
+.checkbox-list-item__title {
     margin-top: 14.5px;
     display: flex;
     justify-content: center;
@@ -478,7 +492,7 @@ body {
 }
 
 
-.checkbox-list {
+.checkbox-list__list {
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -486,14 +500,14 @@ body {
     /* margin-top: 49px; */
 }
 
-.checkbox-list__element {
+.checkbox {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     margin-bottom: 11px;
 }
 
-.checkbox-input {
+.checkbox__input {
     width: 20px;
     height: 20px;
     border: 1px solid rgba(31, 32, 65, 0.25);
@@ -502,11 +516,11 @@ body {
     margin: 0;
 }
 
-.checkbox-list__text {
+.checkbox__text {
     max-width: 236px;
 }
 
-.checkbox-list__title {
+.checkbox__title {
     font-size: 14px;
     line-height: 18px;
     margin-left: 10px;
@@ -514,7 +528,7 @@ body {
     margin-bottom: 5px;
 }
 
-.checkbox-list__state {
+.checkbox__subtitle {
     max-width: 192px;
     width: 100%;
     margin: 0;
@@ -523,7 +537,7 @@ body {
     line-height: 18px;
 }
 
-.checkbox-list__state_rich {
+.checkbox__subtitle_rich {
     font-size: 12px;
     line-height: 14px;
     max-width: 236px;
@@ -1754,7 +1768,7 @@ b {
     margin-left: 160px;
 }
 
-.checkbox-name__title_search-room {
+.checkbox-list-item__title_search-room {
     margin: 0;
 }
 
