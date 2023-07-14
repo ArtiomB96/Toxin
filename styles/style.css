@@ -716,10 +716,13 @@ body {
     margin-left: 10px;
 }
 
+.form-elements__like {
+    margin-top: 41px;
+}
+
 .like__title {
     font-size: 12px;
     line-height: 14.63px;
-    margin-top: 41px;
 }
 
 .like-field__text {
@@ -740,7 +743,7 @@ body {
     border-color: #FFFFFF;
 }
 
-.like-buttons {
+.form-field__like-buttons {
     display: flex;
     flex-direction: row;
     column-gap: 6px;
