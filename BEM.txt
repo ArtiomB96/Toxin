@@ -39,7 +39,7 @@ like
   _active
   __image
   __counter
-rate
+form-elements__rate
   __title
   rate-button
   __image
