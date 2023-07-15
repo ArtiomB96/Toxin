@@ -725,7 +725,7 @@ body {
     line-height: 14.63px;
 }
 
-.like-field__text {
+.like-button {
     width: 40px;
     height: 20px;
     display: flex;
@@ -735,22 +735,22 @@ body {
     align-items: center;
 }
 
-.like-field__text_active {
+.like-button_active {
     border: 1px solid var(--purple);
 }
 
-.like-button__input {
+.like-button__button__input {
     border-color: #FFFFFF;
 }
 
-.form-field__like-buttons {
+.form-field__like-button__buttons {
     display: flex;
     flex-direction: row;
     column-gap: 6px;
     margin-top: 16px;
 }
 
-.like-button {
+.like-button__button {
     background-color: rgba(28, 28, 28, 0);
     border: #FFFFFF;
     width: 20px;
@@ -763,14 +763,14 @@ body {
     height: 20px; */
 }
 
-.like-button__state {
+.like-button__counter {
     font-size: 10px;
     line-height: 12.19px;
     margin-top: 3px;
     margin-left: 2px;
 }
 
-.like-button__state_active {
+.like-button__counter_active {
     color: var(--purple);
 }
 

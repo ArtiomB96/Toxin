@@ -35,7 +35,7 @@ toggle
   __title
 like
   __title
-  like-button
+  like-button__button
   _active
   __image
   __counter
