@@ -851,7 +851,7 @@ body {
     line-height: 14.63px;
 }
 
-.range-slider__state {
+.range-slider__subtitle {
     font-size: 12px;
     line-height: 14.63px;
     color: var(--dark50);
@@ -880,7 +880,7 @@ body {
     background: var(--gradientGreen);
 }
 
-.range-toggle {
+.range-controls__toggle {
     position: absolute;
     top: -4px;
     width: 12px;
@@ -892,11 +892,11 @@ body {
     cursor: pointer;
 }
 
-.range-toggle-min {
+.range-controls__toggle_min {
     left: 29%;
 }
 
-.range-toggle-max {
+.range-controls__toggle_max {
     left: 60%;
 }
 
