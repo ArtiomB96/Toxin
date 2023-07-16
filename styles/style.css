@@ -925,9 +925,12 @@ body {
     border-radius: 22px;
 }
 
-.click-button_transition {
+.button_size_large {
     max-width: 320px;
     width: 100%;
+}
+
+.form-elements__submit {
     margin-top: 31px;
 }
 
@@ -974,7 +977,7 @@ body {
     color: var(--purple);
 }
 
-.click-button__container {
+.button__container {
     max-width: 300px;
     width: 100%;
     align-content: center;
@@ -984,7 +987,7 @@ body {
     justify-content: space-between;
 }
 
-.click-button__title {
+.button__title {
     margin: 0 auto;
 }
 
