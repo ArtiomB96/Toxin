@@ -820,6 +820,8 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .form-field__footer_apply {
@@ -934,12 +936,12 @@ body {
     margin-top: 31px;
 }
 
-.click-button_pagination-active {
+.button_click-pagination {
     width: 40px;
     height: 40px;
 }
 
-.click-button_pagination-arrow {
+.button_pagination-arrow {
     background: var(--gradientGreen);
 }
 
@@ -1021,7 +1023,7 @@ body {
     color: var(--dark50);
 }
 
-.pagination {
+.form-elements__pagination {
     margin-top: 40px;
     margin-bottom: 230px;
 }
@@ -1031,23 +1033,23 @@ body {
     line-height: 14.63px;
 }
 
-.pagination-buttons {
+.pagination__container {
     display: flex;
     flex-direction: row;
     margin-top: 17px;
 }
 
-.pagination-button {
+.button_pagination {
     width: 40px;
     background: #FFFFFF;
     border: 0px;
 }
 
-.pagination-text {
+.button_pagination__text {
     color: var(--dark50);
 }
 
-.pagination-state {
+.pagination__text {
     width: 229px;
     height: 24px;
     font-size: 14px;
@@ -1056,11 +1058,11 @@ body {
     margin-top: 11px;
 }
 
-.bullet {
+.form-elements__bullet-list {
     margin-top: 99px;
 }
 
-.bullet-list {
+.bullet-list__list {
     max-width: 280px;
     padding: 0;
     margin: 0;
@@ -1070,12 +1072,12 @@ body {
     row-gap: 10px;
 }
 
-.bullet__title {
+.bullet-list__title {
     font-size: 12px;
     line-height: 14.63px;
 }
 
-.bullet-list__element {
+.bullet {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1083,7 +1085,7 @@ body {
     list-style: none;
 }
 
-.bullet-list__element::before {
+.bullet::before {
     content: "";
     /* Add content: \2022 is the CSS Code/unicode for a bullet */
     background-color: var(--dark25);
@@ -1096,7 +1098,7 @@ body {
     /* Needed to add space between the bullet and the text */
 }
 
-.bullet-list__state {
+.bullet__text {
     max-width: 341px;
     width: 100%;
     font-size: 14px;
@@ -1105,7 +1107,7 @@ body {
     white-space: pre-line;
 }
 
-.bullet-list__element_time::before {
+.bullet_time::before {
     align-items: self-start;
 
 }

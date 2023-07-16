@@ -429,7 +429,7 @@
                         </div>
                         <div class="form-field_type_dropdown__footer form-field__footer_apply">
                             <button class="button-apply">
-                                <p class="button-apply__title title">ПРИМЕНИТЬ</p>
+                                <a href="#" class="button_link title">ПРИМЕНИТЬ</a>
                             </button>
                         </div>
                     </div>
@@ -533,30 +533,30 @@
                             alt="check image">
                     </div>
                 </button>
-                <div class="pagination">
+                <div class="form-elements__pagination pagination">
                     <h2 class="pagination__title title">PAGINATION</h2>
-                    <div class="pagination-buttons">
-                        <button class="click-button click-button_pagination-active">
-                            <p class="click-button__text title">1</p>
+                    <div class="pagination__container">
+                        <button class="button button_click-pagination">
+                            <p class="button__text title">1</p>
                         </button>
-                        <button class="pagination-button">
-                            <p class="pagination-text title">2</p>
+                        <button class="button_pagination">
+                            <p class="button_pagination__text title">2</p>
                         </button>
-                        <button class="pagination-button">
-                            <p class="pagination-text title">3</p>
+                        <button class="button_pagination">
+                            <p class="button_pagination__text title">3</p>
                         </button>
-                        <button class="pagination-button">
-                            <p class="pagination-text title">...</p>
+                        <button class="button_pagination">
+                            <p class="button_pagination__text title">...</p>
                         </button>
-                        <button class="pagination-button">
-                            <p class="pagination-text title">15</p>
+                        <button class="button_pagination">
+                            <p class="button_pagination__text title">15</p>
                         </button>
-                        <button class="click-button click-button_pagination-active click-button_pagination-arrow">
+                        <button class="button button_click-pagination button_pagination-arrow">
                             <img src="images/form_elements/arrow_forward_white.svg" class="click-button__image"
                                 alt="check image">
                         </button>
                     </div>
-                    <p class="pagination-state state">1 – 12 из 100+ вариантов аренды</p>
+                    <p class="pagination__text state">1 – 12 из 100+ вариантов аренды</p>
                 </div>
                 <label class="form-field">
                     <div class="form-field__header form-field__header_size_middle">
@@ -614,30 +614,32 @@
 
                         </div>
                         <div class="form-field_type_dropdown__footer">
-                            <button class="button-apply">
-                                <p class="button-apply__title title">ОЧИСТИТЬ</p>
-                            </button>
-                            <button class="button-apply">
-                                <p class="button-apply__title title">ПРИМЕНИТЬ</p>
-                            </button>
+                            <div class="button-apply">
+                                <a href="#" class="button_link title">ОЧИСТИТЬ</a>
+                            </div>
+                            <div class="button-apply">
+                                <a href="#" class="button_link title">ПРИМЕНИТЬ</a>
+                            </div>
                         </div>
                     </div>
                 </label>
-                <div class="bullet">
-                    <h2 class="bullet__title title">BULLET LIST</h2>
-                    <ul class="bullet-list">
-                        <li class="bullet-list__element">
-                            <span class="bullet-list__state state">Нельзя с питомцами</span>
+                <div class="form-elements__bullet-list">
+                    <div class="bullet-list">
+                    <h2 class="bullet-list__title title">BULLET LIST</h2>
+                    <ul class="bullet-list__list">
+                        <li class="bullet">
+                            <span class="bullet__text state">Нельзя с питомцами</span>
                         </li>
-                        <li class="bullet-list__element">
-                            <span class="bullet-list__state state">Без вечеринок и мероприятий</span>
+                        <li class="bullet">
+                            <span class="bullet__text state">Без вечеринок и мероприятий</span>
                         </li>
-                        <li class="bullet-list__element bullet-list__element_time">
-                            <span class="bullet-list__state state">Время прибытия — после 13:00,
+                        <li class="bullet bullet_time">
+                            <span class="bullet__text state">Время прибытия — после 13:00,
                                 а выезд до 12:00</span>
                         </li>
 
                     </ul>
+                </div>
                 </div>
             </section>
         </main>
