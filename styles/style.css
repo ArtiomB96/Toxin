@@ -900,22 +900,24 @@ body {
     left: 60%;
 }
 
+.form-elements__buttons {
+
+}
+
 .buttons__title {
     font-size: 12px;
     line-height: 14.63px;
     margin-bottom: 16px;
 }
 
-.click-buttons {
+.form-elements__click-buttons {
     display: flex;
     gap: 19px;
 }
 
-.click-buttons_default {
-    margin-top: 30px;
-}
 
-.click-button {
+
+.button {
     width: 99px;
     height: 44px;
     background: var(--gradientPurple180deg);
@@ -940,7 +942,7 @@ body {
 
 
 
-.click-button_default {
+.button_variant {
     border: 2px solid transparent;
     /*Обводка нужной толщины, но прозрачная*/
     background: var(--gradientPurple180degOpacity);
@@ -952,19 +954,23 @@ body {
     display: inline-block;
 }
 
-.click-button:hover {
+.form-elements__button_hover {
+    opacity: 0.5;
+}
+
+.button:hover {
     opacity: 0.5;
     cursor: pointer;
     transition: 0.5s;
 }
 
-.click-button__text {
+.button__text {
     font-size: 12px;
     line-height: 14.63px;
     color: #FFFFFF;
 }
 
-.click-button__text_purple {
+.button__text_purple {
     color: var(--purple);
 }
 
@@ -990,20 +996,25 @@ body {
     overflow: hidden;
 }
 
-.links {
-    margin-top: 31px;
+.form-elements_type_button {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.form-elements__button_links {
     display: flex;
     gap: 20px;
 }
 
-.link {
+.button_link {
     font-size: 12px;
     line-height: 14.63px;
     color: var(--purple);
     text-decoration: none;
 }
 
-.link_grey {
+.button_grey {
     color: var(--dark50);
 }
 
