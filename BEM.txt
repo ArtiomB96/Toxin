@@ -1,0 +1,78 @@
+blocks
+
+form-field           /* !!!!ИЗМЕНИТЬ НАЗВАНИЯ STATE FORM-FIELD__STATE ИТД!!! */
+  __header
+  __title
+  __state
+  __input
+   _opacity
+   _focus
+   _text /* guest в версии 1 */
+  __check  /* text в версии 1 */
+  __button
+  __image
+checkbox-list
+  _closed
+  __name
+  __button
+  __list
+    checkbox
+      __input
+      __title
+advantage
+  __image
+  __title
+  __state
+radio
+  __title
+ radio-checkbox
+  __input
+  __title
+toggle
+  __title
+  toggle-element
+  __input
+  __title
+like
+  __title
+  like-button__button
+  _active
+  __image
+  __counter
+form-elements__rate
+  __title
+  rate-button
+  __image
+  _active
+range-slider
+  __header
+  __title
+  __subtitle
+  range-controls
+  __scale
+  __toggle
+   _min
+   _max
+buttons
+  __title
+  click-button
+    __transition
+  button-link
+    _active
+pagination
+  __title
+  pagination-button
+   _click
+   _arrow
+bullet-list
+  __title
+  bullet
+    ::before
+    __text
+
+  
+
+   
+
+
+     
