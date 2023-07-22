@@ -358,6 +358,15 @@ body {
     width: 100%;
 }
 
+.card__dropdown-dates {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    max-width: 320px;
+    width: 100%;
+}
+
 .form-field__input_dropdown {
     max-width: 150px;
     width: 100%;
@@ -933,6 +942,10 @@ body {
 }
 
 .form-elements__submit {
+    margin-top: 31px;
+}
+
+.card__submit {
     margin-top: 31px;
 }
 
