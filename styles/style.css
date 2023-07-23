@@ -1687,7 +1687,7 @@ b {
     height: 900px;
     background: url(../images/landing-page/background-landing.svg);
 }
-.card_calendar-landing {
+.landing-page__calendar {
     position: absolute;
     top: 260px;
     left: 181px;
