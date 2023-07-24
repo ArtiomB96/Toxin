@@ -1759,46 +1759,46 @@ b {
 }
 
 .card-image_980 {
-    background-image: url(/Toxin/images/search-room/room980.svg);
+    background-image: url(../images/search-room/room980.svg);
 }
 
 .card-image_856 {
-    background-image: url(/Toxin/images/search-room/room856.svg);
+    background-image: url(../images/search-room/room856.svg);
 }
 
 .card-image_740 {
-    background-image: url(/Toxin/images/search-room/room740.svg);
+    background-image: url(../images/search-room/room740.svg);
 }
 
 .card-image_982 {
-    background-image: url(/Toxin/images/search-room/room982.svg);
+    background-image: url(../images/search-room/room982.svg);
 }
 
 .card-image_678 {
-    background-image: url(/Toxin/images/search-room/room678.svg);
+    background-image: url(../images/search-room/room678.svg);
 }
 
 .card-image_450 {
-    background-image: url(/Toxin/images/search-room/room450.svg);
+    background-image: url(../images/search-room/room450.svg);
 }
 
 .card-image_350 {
-    background-image: url(/Toxin/images/search-room/room350.svg);
+    background-image: url(../images/search-room/room350.svg);
 }
 
 .card-image_666 {
-    background-image: url(/Toxin/images/search-room/room666.svg);
+    background-image: url(../images/search-room/room666.svg);
 }
 
 .card-image_444 {
-    background-image: url(/Toxin/images/search-room/room444.svg);
+    background-image: url(../images/search-room/room444.svg);
 }
 
 .card-image_352 {
-    background-image: url(/Toxin/images/search-room/room352.svg);
+    background-image: url(../images/search-room/room352.svg);
 }
 
-.pagination_search-room {
+.search-room__pagination {
     margin: 0;
     display: flex;
     flex-direction: column;
