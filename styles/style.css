@@ -1687,15 +1687,15 @@ b {
     height: 900px;
     background: url(../images/landing-page/background-landing.svg);
 }
-.landing-page__calendar {
+.landing-page__center-element {
     position: absolute;
     top: 260px;
     left: 181px;
 }
 
-.form-field_landing {
+.landing-page__form-field_guest {
     position: absolute;
-    top: 339px;
+    top: 343px;
     left: 181px;
 }
 
