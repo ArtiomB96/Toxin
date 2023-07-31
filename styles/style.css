@@ -492,6 +492,7 @@ body {
     justify-content: center;
     font-size: 12px;
     line-height: 14.63px;
+    padding-bottom: 10px;
 }
 
 .checkbox-list_rich__title {
