@@ -847,6 +847,9 @@ body {
 .range-slider {
     max-width: 266px;
     width: 100%;
+}
+
+.form-elements__range-slider {
     margin-bottom: 42px;
 }
 
@@ -866,7 +869,10 @@ body {
     font-size: 12px;
     line-height: 14.63px;
     color: var(--dark50);
+}
 
+.range-slider__subtitle_bottom {
+    padding-top: 10px;
 }
 
 .range-controls {
@@ -1699,7 +1705,7 @@ b {
     left: 181px;
 }
 
-.form-field_drops {
+.search-room__dropdown {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
@@ -1750,9 +1756,7 @@ b {
     
 }
 
-.range-slider_search-room {
-    margin: 0;
-}
+
 
 .checkbox-buttons_searh-room {
     margin: 0;
