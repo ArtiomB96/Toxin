@@ -1097,6 +1097,15 @@ body {
     line-height: 14.63px;
 }
 
+.bullet-list__title_size_big {
+    font-size: 19px;
+    line-height: 23.16px;
+}
+
+.bullet-list__title_margin-left {
+    margin-left: 20px;
+}
+
 .bullet {
     display: flex;
     flex-direction: row;
@@ -1147,7 +1156,8 @@ body {
 }
 
 .card {
-    width: 380px;
+    max-width: 380px;
+    width:100%;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.12);
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
@@ -1856,10 +1866,7 @@ b {
     flex-direction: column;
 }
 
-.room {
-    margin-left: 140px;
-    margin-top: 88px;
-}
+
 
 .room-info {
     display: flex;
@@ -1890,29 +1897,29 @@ b {
     margin-bottom: 20px;
 }
 
-.bullet_room {
+.room-details__bullet {
     margin-top: 20px;
 }
 
-.bullet-list_room {
+.bullet-list__list_room {
     row-gap: 0px;
 }
 
 
 
-.bullet-list__element_yellow::before {
+.bullet_yellow::before {
     background: var(--gradientYellow);
 }
 
-.bullet-list__element_green::before {
+.bullet_green::before {
     background: var(--gradientGreen);
 }
 
-.bullet-list__element_purple::before {
+.bullet_purple::before {
     background: var(--gradientPurple);
 }
 
-.bullet-list__element_black::before {
+.bullet_black::before {
     background: var(--gradientGrey);
 }
 
@@ -1921,10 +1928,12 @@ b {
     row-gap: 0px;
 }
 
-.room {
+.room-details__room {
   display: flex;
   flex-direction: row;
-  column-gap: 100px;
+  column-gap: 233px;
+  margin-left: 140px;
+  margin-top: 88px;
 }
 
 .room-review {
@@ -1944,7 +1953,7 @@ b {
     align-items: end;
 }
 
-.room-conditions {
+.room-details__rules {
     display: flex;
     flex-direction: row;
     column-gap: 100px;
@@ -1959,7 +1968,7 @@ b {
     margin-left: 20px;
 }
 
-.bullet__title_cancel {
+.bullet__title_size_big {
     margin-bottom: 16px;
 }
 
