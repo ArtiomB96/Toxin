@@ -1142,11 +1142,10 @@ body {
 }
 
 .card-columns {
-    margin-top: 72px;
-    margin-left: 140px;
     display: flex;
     flex-direction: row;
     column-gap: 40px;
+    justify-content: center;
 }
 
 .card-column {
@@ -1169,7 +1168,7 @@ body {
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
-    padding-bottom: 30px;
+    padding:20px;
 }
 
 .card__info {
@@ -1836,7 +1835,7 @@ b {
     left: 500px;
 }
 
-.card_sign {
+.sign-in__card {
     position: absolute;
     top: 200px;
     left: 500px;
